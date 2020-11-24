@@ -32,16 +32,52 @@
 /* <-----------------------------------------------------------------------------> */
 
 #shoe-col4 .shoe{
-  margin: 10px;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 #shoe-col4 .shoe div{
   padding: 0;
+}
+#shoe-col4 .shoe .shoe-img{
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+#shoe-col4 .shoe img{
+  width: 100%;
 }
 
 #shoe-col4 .shoe-text{
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 50px;
+  font-size: 30px;
+  color: #ffffff;
 }
+#shoe-col4 .shoe-text{
+  width: 100%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#child-img .col-6{
+  padding: 5px;
+  
+}
+#child-img .child-img img{
+  width: 100%;
+}
+#child-img .child-text{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  font-size: 80px;
+}
+
