@@ -36,6 +36,8 @@ function twentytwenty_child_styles() {
 
     wp_enqueue_style( 'bootstrap-styles', get_theme_file_uri( '/assets/css/bootstrap.min.css' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
 
+    wp_enqueue_style( 'java-styles', get_theme_file_uri( '/assets/js/index.js' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
+
 }
 
 add_action( 'wp_enqueue_scripts', 'twentytwenty_child_styles' );
