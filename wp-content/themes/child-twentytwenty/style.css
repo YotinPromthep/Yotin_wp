@@ -1,0 +1,11 @@
+/*
+Theme Name: twentytwenty Child Theme
+Theme URI: http://vergatheme.com/demosd/demo-oneclick/
+Description: This is child theme of Oneclick
+Author: Vergatheme Team
+Author URI: http://vergatheme.com/demosd/demo-oneclick/
+Template: twentytwenty
+Version: 1.0
+Text Domain:  child-twentytwenty
+*/
+@import url("../twentytwenty/style.css");
