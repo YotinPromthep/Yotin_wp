@@ -97,7 +97,7 @@ get_header();
           <div class="icon-social">
               <div class="icon-facebook"><i class="fab fa-facebook"></i></div>
               <div class="icon-mail"><i class="fab fa-mail"></i></div>
-              <div class="icon-instargram"><i class="fab fa-instargram"></i></div>
+              <div class="icon-instargram"><i class="fab fa-instagram-square"></i></div>
           </div>          
       </div>
       <div class="row">
