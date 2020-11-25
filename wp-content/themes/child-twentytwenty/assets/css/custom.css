@@ -1,3 +1,8 @@
+body{
+  background: #ffffff;
+}
+
+
 
 /* Swiper-Slide */
 
@@ -80,4 +85,88 @@
   color: #ffffff;
   font-size: 80px;
 }
+
+/* Social */
+
+/* <-----------------------------------------------------------------------------> */
+
+.social-container{
+  padding-top: 100px;
+  margin: 0;
+}
+#social .text-bundgaard{
+  width: 100%;
+  text-align: center;
+}
+#social .text-bundgaard a{
+  text-decoration: none
+}
+#social .text-bundgaard span{
+  font-size: 80px;
+  color: #000000;
+}
+#social .text-bundgaard span:hover{
+  color: #c4d6d6;
+}
+#social .icon-social{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  font-size: 35px;
+  padding-left: 44%;
+  padding-right: 32%;
+  padding-top: 25px;
+}
+#social .icon-social .icon-facebook{
+  margin-right: 20px;
+  width: 13%;
+  border-radius: 74%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+#social .icon-social .icon-facebook:hover{
+  background-color: #c4d6d6;
+  border: none;
+}
+#social .icon-social .icon-facebook i:before{ 
+  color: rgb(255, 255, 255); 
+}
+#social .icon-social .icon-mail{
+  margin-right: 20px;
+  width: 13%;
+  border-radius: 74%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+#social .icon-social .icon-mail:hover{
+  background-color: #c4d6d6;
+  border: none;
+}
+#social .icon-social .icon-mail i::before{
+  color: rgb(255, 255, 255); 
+
+}
+#social .icon-social .icon-instargram{
+  margin-right: 20px;
+  width: 13%;
+  border-radius: 74%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+#social .icon-social .icon-instargram:hover{
+  background-color: #c4d6d6;
+  border: none;
+}
+#social .icon-social .icon-instargram i::before{
+  color: rgb(255, 255, 255); 
+
+}
+
+#social .col-3{
+  padding: 0;
+}
+#social .gallery img{
+  width: 98%;
+}
+
 

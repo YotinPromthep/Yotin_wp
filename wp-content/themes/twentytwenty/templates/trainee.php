@@ -90,24 +90,25 @@ get_header();
   </div>
 
   <div class="social-container" id="social">
-      <div class="row">
-          <div class="text-bundgaard">
-              <span>#bundgaard</span>
-          </div>
-          <div class="icon-social">
-              <div class="icon-facebook"><i class="fab fa-facebook"></i></div>
-              <div class="icon-mail"><i class="fab fa-mail"></i></div>
-              <div class="icon-instargram"><i class="fab fa-instagram-square"></i></div>
-          </div>          
-      </div>
-      <div class="row">
-        <div class="gallery">
-            <div class="col-3"><a href="#"><img src="" alt=""></a></div>
-            <div class="col-3"><a href="#"><img src="" alt=""></a></div>
-            <div class="col-3"><a href="#"><img src="" alt=""></a></div>
-            <div class="col-3"><a href="#"><img src="" alt=""></a></div>
+        <div class="row">
+            <div class="text-bundgaard">
+              <a href="#"><span>#bundgaard</span></a>
+            </div> 
+            <div class="icon-social">
+                <div class="icon-facebook"><a href="#"><i class="fa fa-facebook-f"></i></a></i></div>
+                <div class="icon-mail"><a href="#"><i class="fa fa-envelope"></i></a></div>
+                <div class="icon-instargram"><a href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>                   
         </div>
-      </div>
+        
+        <div class="row">
+            <div class="gallery">
+                <div class="col-3"><a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_03.jpg" alt=""></a></div>
+                <div class="col-3"><a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_05.jpg" alt=""></a></div>
+                <div class="col-3"><a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_07.jpg" alt=""></a></div>
+                <div class="col-3"><a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_09.jpg" alt=""></a></div>
+            </div>
+        </div>
   </div>
 
 </main><!-- #site-content -->
