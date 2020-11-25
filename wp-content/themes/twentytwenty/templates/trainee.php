@@ -103,10 +103,30 @@ get_header();
         
         <div class="row">
             <div class="gallery">
-                <div class="col-3"><a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_03.jpg" alt=""></a></div>
-                <div class="col-3"><a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_05.jpg" alt=""></a></div>
-                <div class="col-3"><a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_07.jpg" alt=""></a></div>
-                <div class="col-3"><a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_09.jpg" alt=""></a></div>
+                <div class="col-3">
+                    <a href="#">
+                        <img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_03.jpg" alt="">
+                    </a>
+                    <div class="social-text">
+                        <div class="com-social">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <a href="#">
+                        <img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_05.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#">
+                        <img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_07.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/buttom-img_09.jpg" alt="">
+                </a>
+            </div>
             </div>
         </div>
   </div>
