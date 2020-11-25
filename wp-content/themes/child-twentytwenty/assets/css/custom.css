@@ -169,4 +169,53 @@ body{
   width: 98%;
 }
 
+#social .social-text{
+  /* display: flex; */
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: #ffffff;
+  display: none;
+}
+#social .col-3:hover .social-text{
+  display: flex;
+}
+
+#social .col-3:hover img{
+  color: rgba(0,0,0,0.5);
+}
+
+#social .social-text .heart-social{
+  padding-right: 15px;
+}
+
+#social .overlay {
+  position: absolute;
+  top: 0;
+  width: 98%;
+  height: 100%;
+}
+#social .col-3:hover .overlay{
+  transition: .5s ease;
+  background-color: rgb(0 0 0 / 65%);
+  
+}
+#social a{
+  color: white;
+}
+
+
+
+/* Service */
+
+/* <-----------------------------------------------------------------------------> */
+
+
+#service .col-4{
+  text-align: center;
+}
+#service .col-4 img{
+  width: 60px;
+  display: inline;
+}
 
