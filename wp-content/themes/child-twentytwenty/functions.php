@@ -39,6 +39,7 @@ function twentytwenty_child_styles() {
     wp_enqueue_style( 'font-Awesome-styles', get_theme_file_uri( '/assets/css/all.css' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
 
 
+
 }
 
 add_action( 'wp_enqueue_scripts', 'twentytwenty_child_styles' );

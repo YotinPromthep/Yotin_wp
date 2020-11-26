@@ -177,7 +177,7 @@ get_header();
                 </div>
             </div>
             <div class="col-4">
-                <div class="service-img">
+                <div class="service-img midile">
                         <a href="#">
                             <img src="./wp-content/themes/child-twentytwenty/assets/img/logo-service_09.png" alt="">
                         </a>
@@ -280,6 +280,11 @@ get_header();
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="to-top">
+                <a href="#" class="fa fa-angle-double-up"></a>
             </div>
         </div>
     </div>
