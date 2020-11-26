@@ -85,6 +85,15 @@ body{
   font-size: 16px;
   border: none;
 }
+.dropdown::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  background-color: rgb(206 201 201);
+  top: 10px;
+  left: 10.5rem;
+}
 
 .dropdown {
   position: relative;
@@ -124,13 +133,30 @@ body{
   display: flex;
   padding-right: 20px;
 }
+#site-header .user::before{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  background-color: rgb(206 201 201);
+  top: 103px;
+  left: 146rem;
+}
 #site-header .user .logo-user{
   padding-right: 15px;
 }
 #site-header .log-in{
   display: flex;
   padding-right: 20px;
-
+}
+#site-header .log-in::before{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  background-color: rgb(206 201 201);
+  top: 103px;
+  left: 156.5rem;;
 }
 #site-header .logo-login {
   padding-right: 15px;
@@ -147,7 +173,46 @@ body{
 }
 #site-header .search{
   padding-right: 10px;
+  
 }
+#site-header .search::before{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  background-color: rgb(206 201 201);
+  top: 103px;
+  left: 123rem; 
+}
+
+#site-header .menu-midle a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+#site-header .menu-midle a .shop{
+  color: #b4cbcd;
+}
+
+#site-header .menu-text{
+  width: 100%;
+  text-align: center;
+}
+#site-header .menu-text a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  padding-right: 69px;
+}
+#site-header .menu-text a:hover{
+  color:#b4cbcd;
+}
+#site-header .menu-bottom{
+  width: 100%;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
 
 
 
@@ -571,4 +636,20 @@ body{
 #foot .to-top a:hover{
   background: #ffffff;
   border: none;
+}
+
+/* footer */
+
+/* <-----------------------------------------------------------------------------> */
+
+footer#site-footer {
+  padding: 10px 0;
+}
+
+#site-footer .footer-credits{
+  width: 100%;
+}
+#site-footer .footer-credits span{
+  width: 100%;
+  text-align: center;
 }

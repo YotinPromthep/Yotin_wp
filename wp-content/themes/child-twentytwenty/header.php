@@ -99,10 +99,10 @@
 						</div>
 						<div class="user">
 							<div class="logo-user">
-								<a href=""><i class="fa fa-user"></i></a>
+								<a href="#"><i class="fa fa-user"></i></a>
 							</div>
 							<div class="name-user">
-								<span>Min konto</span>
+								<a href="#"><span>Min konto</span></a>
 							</div>
 						</div>
 						<div class="log-in">
@@ -110,7 +110,7 @@
 								<a href="#"><i class="fa fa-sign-in"></i></a>
 							</div>
 							<div class="text-login">
-								<span>Log ind</span>
+								<a href="#"><span>Log ind</span></a>
 							</div>
 						</div>
 						<div class="cart">
@@ -118,10 +118,10 @@
 								<a href="#"><i class="fa fa-shopping-cart"></i></a>
 							</div>
 							<div class="text-cart">
-								<span>Indkøbtskur</span>
+								<a href="#"><span>Indkøbtskur</span></a>
 							</div>
 							<div class="number-cart">
-								<span>(0)</span>
+								<a href="#"><span class="shop">(0)</span></a>
 							</div>
 						</div>
 					</div>
@@ -131,6 +131,21 @@
 
 			</div><!-- .header-inner -->
 
+			<div class="header-inner section-inner">
+				<div class="menu-bottom">
+					<div class="menu-text">
+						<a href="#"><span>Sko</span></a>
+						<a href="#"><span>Støvler</span></a>
+						<a href="#"><span>Gummistøvler</span></a>
+						<a href="#"><span>Hjemmesko</span></a>
+						<a href="#"><span>De første skridt</span></a>
+						<a href="#"><span>Find størrelse</span></a>
+						<a href="#"><span>Pleje af sko</span></a>
+						<a href="#"><span>Kundeservice</span></a>
+						<a href="#"><span>Om Bundgaard</span></a>
+					</div>
+				</div>
+			</div>
 			
 		</header><!-- #site-header -->
 
