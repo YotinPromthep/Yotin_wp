@@ -8,6 +8,149 @@ body{
   background: #ffffff;
 }
 
+/* menu */
+
+/* <-----------------------------------------------------------------------------> */
+
+#site-header .top-menu{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#site-header .section-inner{
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px ;
+}
+#site-header .header-titles img{
+  padding-left: 20px;
+}
+#site-header .text-menu-top{
+  display: flex;
+}
+#site-header .text-menu h1{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#site-header .text-menu h1 span{
+  color: #e1a546;
+}
+#site-header .logo-service{
+  display: flex;
+}
+#site-header .logo-service .text-top-service span{
+  font-size: 14px;
+}
+#site-header .logo-service .text-top-service span.h{
+  font-weight: bold;
+}
+#site-header .logo-service .text-top-service span.c{
+  font-weight: 200;
+}
+#site-header .logo-service .img-service img{
+  display: flex;
+  width: 50px;
+  padding-right: 10px;
+}
+#site-header .logo-service .top-service{
+  display: flex;
+}
+#site-header .text-menu-top{
+  width: 100%;
+}
+#site-header .col-4{
+  padding: 0;
+}
+#site-header .top-service{
+  margin-right: 30px;
+  align-items: center;
+}
+#site-header .top-service .middle{
+  padding-top: 5px;
+}
+
+#site-header .header-navigation-wrapper{
+  width: 35%;
+}
+
+#site-header .menu-midle{
+  display: flex;
+  align-items: center;
+}
+.dropbtn {
+  background-color: rgba(255, 255, 255, 0);;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  padding-right: 32px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 105px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 16px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 3px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  text-decoration: none;
+}
+
+#site-header .user{
+  display: flex;
+  padding-right: 20px;
+}
+#site-header .user .logo-user{
+  padding-right: 15px;
+}
+#site-header .log-in{
+  display: flex;
+  padding-right: 20px;
+
+}
+#site-header .logo-login {
+  padding-right: 15px;
+}
+#site-header .cart{
+  display: flex;
+  padding-right: 20px;
+}
+#site-header .cart .logo-cart{
+  padding-right: 15px;
+}
+#site-header .cart .text-cart{
+  padding-right: 15px;
+}
+#site-header .search{
+  padding-right: 10px;
+}
+
+
+
 
 
 /* Swiper-Slide */
