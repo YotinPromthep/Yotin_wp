@@ -201,6 +201,89 @@ get_header();
         </div>
     </div>
 
+    <div id="foot" class="container-footer">
+        <div class="row">
+            <div class="header-footer">
+                <div class="head-text">
+                    <h1>Tilmeld dig vores nyhedsbrev og få 10% rabat på dit første køb</h1> <br>
+                    <h2 >Få de seneste nyheder og guides til sunde fødder</h2>
+                </div>
+                <div class="input-email">
+                    <i class="fa fa-envelope"></i>
+                    <input type="text" placeholder=" Din e-mailadresse..." name="" id="">
+                    <button type="submit"><i class="fa fa-arrow-right"></i></button>                    
+                </div>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="footer-col">
+                <div class="col-3">
+                    <div class="img-logo">
+                        <a href="#"><img src="./wp-content/themes/child-twentytwenty/assets/img/logo-product_03.png" alt="" srcset=""></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="text-head">
+                        <h3>Kategorier</h3>
+                    </div>
+                    <ul class="text-child">
+                        <li><a href="#">Støvler</a></li>
+                        <li><a href="#">Sko</a></li>
+                        <li><a href="#">Gummistøvler</a></li>
+                        <li><a href="#">Hjemmesko</a></li>
+                        <li><a href="#">De første skridt</a></li>
+                        <li><a href="#">Find størrelse</a></li>
+                        <li><a href="#">Pleje af sko</a></li>
+                        <li><a href="#">Kundeservice</a></li>
+                        <li><a href="#">Om Bundgaard</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="text-head">
+                        <h3>Kundeservice</h3>
+                    </div>
+                    <ul class="text-child">
+                        <li><a href="#">Min konto</a></li>
+                        <li><a href="#">Opret konto</a></li>
+                        <li><a href="#">Levering</a></li>
+                        <li><a href="#">Bytte & Retur</a></li>
+                        <li><a href="#">Handelsbetingelser</a></li>
+                        <li><a href="#">Persondatapolitik</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="text-head">
+                        <h3>Kontakt</h3>
+                    </div>
+                    <ul class="text-child connect">
+                        <li class="con"><i class="fa fa-map-marker"></i><div>
+                            <a href="#">Bonvita Footwear Company<br>Sundkaj 125, 3 Sal.<br>DK-2150 Nordhavn</a></div></li>
+                        <li class="con"><i class="fa fa-envelope"></i>
+                            <div><a href="#">shop@bundgaard.dk</a></div>
+                        </li>
+                        <li class="con"><i class="fa fa-phone"></i>
+                            <div><a href="">+45 38 40 07 00</a></div>
+                        </li>
+                        <li class="con"><i class="fa fa-clock"></i>
+                            <div><a href="#">Mandag - Fredag : 09:00 - 15:00</a></div>
+                        </li>
+                    </ul>
+                    <div class="text-head">
+                        <h3>Følg Bundgaard</h3>
+                    </div>
+                    <div class="logo-so">
+                        <div class="face">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        </div>
+                        <div class="ig">
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </main><!-- #site-content -->
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
