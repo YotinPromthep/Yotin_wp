@@ -11,7 +11,9 @@
 
 ?><!DOCTYPE html>
 
+
 <html class="no-js" <?php language_attributes(); ?>>
+
 
 	<head>
 
@@ -87,14 +89,15 @@
 				<div class="header-navigation-wrapper">
 					<div class="menu-midle">
 						<div class="search">
-							<a href="#"><i class="fa fa-search"></i></a>
+							<a href="#" id="main-search" ><i class="fa fa-search"></i></a>
+							<input id="show-search" type="text">
 						</div>
 						<div class="dropdown">
-							<button class="dropbtn">Danish <i class="fa fa-caret-down"></i></button>
-							<div class="dropdown-content">
-								<a href="#">Danish</a>
-								<a href="#">German</a>
-								<a href="#">English</a>
+							<button id="drop-show" class="dropbtn">Danish <i class="fa fa-caret-down"></i></button>
+							<div id="drop" class="dropdown-content">
+								<a id="Danish" href="#" >Danish</a>
+								<a id="German" href="#" >German</a>
+								<a id="English" href="#" >English</a>
 							</div>
 						</div>
 						<div class="user">

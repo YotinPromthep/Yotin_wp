@@ -172,8 +172,17 @@ body{
   padding-right: 15px;
 }
 #site-header .search{
-  padding-right: 10px;
-  
+  padding-right: 10px;  
+}
+#site-header .menu-midle .search input[type="text"]{
+  display: none;
+  position: absolute;
+  left: 94.5rem;
+  width: 15%;
+  height: 40px;
+  margin-top: 6px;
+  transition: .5s;
+  box-shadow: 2px 2px 5px;
 }
 #site-header .search::before{
   content: "";
@@ -652,4 +661,6 @@ footer#site-footer {
 #site-footer .footer-credits span{
   width: 100%;
   text-align: center;
+  font-size:14px;
+  font-weight: bold;
 }

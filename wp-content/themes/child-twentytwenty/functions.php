@@ -29,6 +29,8 @@ if (!defined('ABSPATH')) {
 }
 
 
+
+
 function twentytwenty_child_styles() {
 
 
@@ -37,6 +39,12 @@ function twentytwenty_child_styles() {
     wp_enqueue_style( 'bootstrap-styles', get_theme_file_uri( '/assets/css/bootstrap.min.css' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
 
     wp_enqueue_style( 'font-Awesome-styles', get_theme_file_uri( '/assets/css/all.css' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
+    
+    wp_enqueue_script( 'index-js', get_theme_file_uri( '/assets/js/index.js' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
+    
+    // wp_enqueue_style( 'jQuery-js', get_theme_file_uri( '/assets/js/jquery-1.12.4.js' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
+
+    wp_enqueue_script( 'jquery-1-4-4', get_theme_file_uri( '/assets/js/jquery1.4.4.min.js' ), array( 'jquery' ), wp_get_theme()->get( 'Version' ), false );
 
 
 
