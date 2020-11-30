@@ -74,7 +74,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="header-inner section-inner">
+			<div class="header-inner section-inner ham">
 
 				<div class="header-titles-wrapper">					
 
@@ -87,7 +87,12 @@
 			</div><!-- .header-titles-wrapper -->
 
 				<div class="header-navigation-wrapper">
-					<div class="menu-midle">
+					<div class="col-1 hamberger">
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    					<i class="fa fa-bars"></i>
+  					</a>
+					</div>
+					<div class="col-10 menu-midle">
 						<div class="search">
 							<a href="#" id="main-search" ><i class="fa fa-search"></i></a>
 							<input id="show-search" type="text">
@@ -149,7 +154,8 @@
 					</div>
 				</div>
 			</div>
-			
+	
+					
 		</header><!-- #site-header -->
 
 		<?php

@@ -8,10 +8,15 @@ body{
   background: #ffffff;
 }
 
+
+
+
 /* menu */
 
 /* <-----------------------------------------------------------------------------> */
-
+.hamberger{
+  display: none;
+}
 #site-header .top-menu{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -664,3 +669,253 @@ footer#site-footer {
   font-size:14px;
   font-weight: bold;
 }
+
+
+/* Style Responsive */
+
+/* <-----------------------------------------------------------------------------> */
+
+/* Max width 1199 */
+
+@media(max-width:1199px){
+
+  #site-header .text-menu h1 {
+    font-size: 14px;
+  }
+  #site-header .logo-service .text-top-service span {
+    font-size: 8px;
+  }
+  #site-header .header-navigation-wrapper {
+    width: 50%;
+  }
+  #site-header .menu-text a {
+    font-size: 18px;
+    padding-right: 18px;
+  }
+
+
+  #child-img .child-text {
+    font-size: 50px;
+  }
+
+  #social .icon-social .icon-facebook {
+    width: 15%;
+    font-size: 25px;
+  }
+
+  #social .icon-social .icon-mail{
+    width: 15%;
+    font-size: 25px;
+  }
+  #social .icon-social .icon-instargram{
+    width: 15%;
+    font-size: 21px;
+  }
+
+  #foot .footer-col .text-head h3{
+    font-size: 25px;
+  }
+  #foot .footer-col .text-child a {
+    font-size: 11px;
+  }
+
+
+}
+
+/* Max width 991 */
+
+@media(max-width:991px) {
+
+  #site-header{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  #site-header .menu-midle {
+    justify-content: flex-end;
+  }
+  #site-header .header-navigation-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+
+  }
+  #site-header .menu-midle .search input[type="text"] {
+    left: 22.5rem;
+    width: 20%;
+  }
+  #site-header .section-inner {
+    padding-bottom: 20px;
+  }
+  #site-header .search::before {
+    display: none;
+  }
+  #drop a{
+    font-size: 20px;
+  }
+  .dropdown::before {
+    display: none;
+  }
+  #site-header .user::before {
+    display: none;
+  }
+  #site-header .log-in::before {
+    display: none;
+  }
+
+  #site-header .text-menu h1 {
+    font-size: 11px;
+  }
+  #site-header .logo-service .top-service {
+    display: block  ;
+  }
+  #site-header .logo-service {
+    align-items: baseline;
+  }
+  #site-header .menu-text a {
+    font-size: 14px;
+    padding-right: 19px;
+  }
+
+  #shoe-col4{
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    width: 100%;
+  }
+  #child-img{
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    width: 100%;
+  }
+  
+  #social{
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin: 0;
+    width: 100%;
+  }
+  #social .icon-social .icon-facebook {
+    width: 20%;
+    line-height: 45px;
+  }
+  #social .icon-social .icon-mail{
+    width: 20%;
+    line-height: 45px;
+  }
+  #social .icon-social .icon-instargram{
+    width: 20%;
+    line-height: 45px;
+  }
+
+  
+  #foot .footer-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #foot .footer-col .text-head h3 {
+    font-size: 28px;
+  }
+  #foot .footer-col .text-child a {
+    font-size: 15px;
+  } 
+  .header-inner.section-inner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .hamberger{
+    display: block;
+  }
+  #site-header .menu-text {
+    display: grid;
+    text-align: inherit;
+    padding-left: 15px;
+  }
+  #site-header .ham{
+    position: absolute;
+  }
+
+}
+
+/* styke max width 767 */
+
+@media(max-width:767px){
+
+  #site-header .header-navigation-wrapper {
+    margin-left: 19rem;
+  }
+  #site-header .menu-midle .search input[type="text"] {
+    left: 4.5rem;
+    width: 27%;
+  }
+
+  #site-header .text-menu h1 {
+    font-size: 8px;
+  }
+  #site-header .text-top-service{
+    display: none;
+  }
+  #site-header .logo-service {
+    align-items: center;
+  }
+  #site-header .logo-service .top-service {
+    width: 100%;
+  }
+  #site-header .col-8{
+    margin-left: 40px;
+  }
+  #site-header .menu-text a {
+    font-size: 11px;
+    padding-right: 11px;
+  }
+  #shoe-col4 .shoe-text {
+    font-size: 20px;
+  }
+  #child-img .child-text {
+    font-size: 40px;
+  }
+  #social .icon-social .icon-facebook {
+    width: 23%;
+    line-height: 43px;
+    height: 40px;
+    font-size: 22px;
+  }
+  #social .icon-social .icon-mail{
+    width: 23%;
+    line-height: 43px;
+    height: 40px;
+    font-size: 22px;
+  }
+  #social .icon-social .icon-instargram{
+    width: 23%;
+    line-height: 43px;
+    height: 40px;
+    font-size: 22px;
+  }
+  #foot .footer-col .text-head h3 {
+    font-size: 20px;
+  }
+  #foot .footer-col .text-child a {
+    font-size: 10px;
+  }
+
+}
+
+/* style max width 575 */
+
+
+@media(max-width:575){
+
+  .header-inner.section-inner.top-menu {
+    display: none;
+  }
+
+}
+
