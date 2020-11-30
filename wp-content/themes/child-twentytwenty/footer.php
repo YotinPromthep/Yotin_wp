@@ -11,7 +11,11 @@
  * @since Twenty Twenty 1.0
  */
 
+ 
+
 ?>
+
+
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
 
 				<div class="section-inner">
@@ -26,7 +30,15 @@
 
 			</footer><!-- #site-footer -->
 
+			
+
 		<?php wp_footer(); ?>
 
+		
+
 	</body>
+
+	
 </html>
+
+

@@ -224,9 +224,9 @@ get_header();
                 </div>
                 <div class="col-3">
                     <div class="text-head">
-                        <h3>Kategorier</h3>
+                        <h3>Kategorier  <i class="fa fa-caret-down hidd1"></i></h3>
                     </div>
-                    <ul class="text-child">
+                    <ul class="text-child hid1">
                         <li><a href="#">Støvler</a></li>
                         <li><a href="#">Sko</a></li>
                         <li><a href="#">Gummistøvler</a></li>
@@ -240,9 +240,9 @@ get_header();
                 </div>
                 <div class="col-3">
                     <div class="text-head">
-                        <h3>Kundeservice</h3>
+                        <h3>Kundeservice  <i class="fa fa-caret-down hidd2"></i></h3>
                     </div>
-                    <ul class="text-child">
+                    <ul class="text-child hid2">
                         <li><a href="#">Min konto</a></li>
                         <li><a href="#">Opret konto</a></li>
                         <li><a href="#">Levering</a></li>

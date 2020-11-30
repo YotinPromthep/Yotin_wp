@@ -16,6 +16,52 @@ jQuery("#drop a").click(function() {
     jQuery('#drop-show').text(t);                      
 });
 
-// jQuery('.third-button').on('click', function () {
-//     jQuery('.animated-icon3').toggleClass('open');
-//   });
+jQuery(document).ready(function() {
+    jQuery('.menu__icon').click(function(){
+        jQuery('body').toggleClass('menu_shown');
+    });
+  });
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.body.style.backgroundColor = "white";
+}
+
+jQuery(".text-head .hidd1").click(function() {
+    if ( jQuery(".hid1").css("display") === "none" ) {
+
+        jQuery(".hid1").css("display", "block");
+
+    } else if ( jQuery(".hid1").css("display") === "block" ){
+
+        jQuery(".hid1").css("display", "none");
+
+    }    
+});
+jQuery(".text-head .hidd2").click(function() {
+    if ( jQuery(".hid2").css("display") === "none" ) {
+
+        jQuery(".hid2").css("display", "block");
+
+    } else if ( jQuery(".hid2").css("display") === "block" ){
+
+        jQuery(".hid2").css("display", "none");
+
+    }    
+});
+
+jQuery(".user").click(function() {
+    if ( jQuery(".log-in").css("display") === "none" ) {
+
+        jQuery(".log-in").css("display", "flex");
+
+    } else if ( jQuery(".log-in").css("display") === "flex" ){
+
+        jQuery(".log-in").css("display", "none");
+
+    }    
+}); 

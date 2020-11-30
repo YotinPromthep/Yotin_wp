@@ -21,6 +21,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
 		<link rel="profile" href="https://gmpg.org/xfn/11">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+		
 
 		<?php wp_head(); ?>
 
@@ -74,7 +79,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="header-inner section-inner ham">
+			<div class="header-inner section-inner ">
 
 				<div class="header-titles-wrapper">					
 
@@ -87,10 +92,8 @@
 			</div><!-- .header-titles-wrapper -->
 
 				<div class="header-navigation-wrapper">
-					<div class="col-1 hamberger">
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    					<i class="fa fa-bars"></i>
-  					</a>
+					<div class="col-1">
+						<span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 					</div>
 					<div class="col-10 menu-midle">
 						<div class="search">
@@ -110,7 +113,7 @@
 								<a href="#"><i class="fa fa-user"></i></a>
 							</div>
 							<div class="name-user">
-								<a href="#"><span>Min konto</span></a>
+								<a href="#"><span>Min konto  </span></a>
 							</div>
 						</div>
 						<div class="log-in">
@@ -139,8 +142,8 @@
 
 			</div><!-- .header-inner -->
 
-			<div class="header-inner section-inner">
-				<div class="menu-bottom">
+			<div  class="header-inner section-inner ham" >
+				<div  class="menu-bottom ">
 					<div class="menu-text">
 						<a href="#"><span>Sko</span></a>
 						<a href="#"><span>Støvler</span></a>
@@ -153,7 +156,28 @@
 						<a href="#"><span>Om Bundgaard</span></a>
 					</div>
 				</div>
+			</div>	
+	
+
+
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="#"><span>Sko</span></a>
+				<a href="#"><span>Støvler</span></a>
+				<a href="#"><span>Gummistøvler</span></a>
+				<a href="#"><span>Hjemmesko</span></a>
+				<a href="#"><span>De første skridt</span></a>
+				<a href="#"><span>Find størrelse</span></a>
+				<a href="#"><span>Pleje af sko</span></a>
+				<a href="#"><span>Kundeservice</span></a>
+				<a href="#"><span>Om Bundgaard</span></a>
 			</div>
+			
+		
+			
+			
+					
+			
 	
 					
 		</header><!-- #site-header -->

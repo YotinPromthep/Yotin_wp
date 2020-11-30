@@ -3,10 +3,9 @@
 
 *{
   font-family: 'Poppins', sans-serif;
+  
 }
-body{
-  background: #ffffff;
-}
+
 
 
 
@@ -14,7 +13,10 @@ body{
 /* menu */
 
 /* <-----------------------------------------------------------------------------> */
-.hamberger{
+.hamburger{
+  display: none;
+}
+#mySidenav{
   display: none;
 }
 #site-header .top-menu{
@@ -75,7 +77,7 @@ body{
 }
 
 #site-header .header-navigation-wrapper{
-  width: 35%;
+  width: 50%;
 }
 
 #site-header .menu-midle{
@@ -111,7 +113,7 @@ body{
   background-color: #f1f1f1;
   min-width: 105px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 9999;
   font-size: 16px;
 }
 
@@ -188,6 +190,7 @@ body{
   margin-top: 6px;
   transition: .5s;
   box-shadow: 2px 2px 5px;
+  z-index: 9999;
 }
 #site-header .search::before{
   content: "";
@@ -554,6 +557,9 @@ body{
 #foot .footer-col .img-logo{
   padding-top: 50px;
 }
+#foot .footer-col .text-head .fa-caret-down{
+  display: none;
+}
 #foot .footer-col .text-head{
   font-size: 20px;
   color: #ffffff;
@@ -669,6 +675,10 @@ footer#site-footer {
   font-size:14px;
   font-weight: bold;
 }
+#site-footer .section-inner span{
+  content: "bundgaard.dk";
+  color: #e1a546;
+}
 
 
 /* Style Responsive */
@@ -725,6 +735,10 @@ footer#site-footer {
 /* Max width 991 */
 
 @media(max-width:991px) {
+
+  .hamburger{
+    display: block;
+  }
 
   #site-header{
     max-width: 100%;
@@ -830,17 +844,58 @@ footer#site-footer {
     padding: 0;
     width: 100%;
   }
-  .hamberger{
+  #mySidenav{
     display: block;
   }
-  #site-header .menu-text {
-    display: grid;
-    text-align: inherit;
-    padding-left: 15px;
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
   }
-  #site-header .ham{
+  
+  .ham{
+    display: none;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
     position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
   }
+
+  
+
+ 
 
 }
 
@@ -848,14 +903,25 @@ footer#site-footer {
 
 @media(max-width:767px){
 
-  #site-header .header-navigation-wrapper {
-    margin-left: 19rem;
+  #site-header .top-menu{
+    display: none;
   }
   #site-header .menu-midle .search input[type="text"] {
-    left: 4.5rem;
+    left: 14.5rem;
     width: 27%;
   }
-
+  #site-header .log-in{
+    position: absolute;
+    left: 43rem;
+    top: 3.5rem;
+    box-shadow: 1px 2px 3px;
+    z-index: 9999;
+    padding: 0px 16px;
+    display: none;
+  }
+  #site-header .text-cart{
+    display: none;
+  }
   #site-header .text-menu h1 {
     font-size: 8px;
   }
@@ -900,21 +966,167 @@ footer#site-footer {
     font-size: 22px;
   }
   #foot .footer-col .text-head h3 {
-    font-size: 20px;
+    font-size: 25px;
   }
   #foot .footer-col .text-child a {
-    font-size: 10px;
+    font-size: 15px;
   }
+  #foot .footer-col{
+    display: block;
+  }
+  #foot .footer-col .col-3{
+    width: 100%;
+    max-width: 100%;
+  }
+  #foot .footer-col .col-3 ul{
+    list-style-type: none;
+  }
+  #foot .footer-col .img-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+  }
+  .text-head , .text-child{
+    padding-left: 35%;
+    padding-right: 20%;
+  }
+  #foot .footer-col .connect {
+    padding-left: 40%;
+  }
+  .logo-so{
+    padding-left: 40%;
+  }
+  #foot .footer-col .img-logo {
+    padding-top: 0;
+  }
+  #foot .header-footer .head-text h1 {
+    font-size: 25px;
+  }
+  
+  #foot .footer-col .text-head h3{
+    display: flex;
+    
+  }
+  #foot .footer-col .text-head .fa-caret-down{
+    display: block;
+    padding-left: 30px;
+  }
+   #foot .footer-col .hid1{
+    height: 0%;
+    width: 100%;
+    overflow-x: hidden;
+    display: none;
+    transition: 0.5s;
+   }
+   #foot .footer-col .hid2{
+    height: 0%;
+    width: 100%;
+    overflow-x: hidden;
+    display: none;
+    transition: 0.5s;
+   }
 
 }
 
 /* style max width 575 */
 
 
-@media(max-width:575){
+@media(max-width:575px){
 
-  .header-inner.section-inner.top-menu {
-    display: none;
+  #child-img .child-text {
+    font-size: 25px;
+  }
+  #social .icon-social .icon-facebook {
+    width: 28%;
+    line-height: 33px;
+    height: 30px;
+    font-size: 20px;
+  }
+  #social .icon-social .icon-mail {
+    width: 28%;
+    line-height: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  #social .icon-social .icon-instargram {
+    width: 28%;
+    line-height: 31px;
+    height: 30px;
+    font-size: 15px;
+  }
+  #service .row{
+    display: block;
+  }
+  #service .row .col-4{
+    width: 100%;
+    max-width: 100%;
+  }
+  #foot .header-footer .head-text h1 {
+    font-size: 19px;
+  }
+  #foot .header-footer .head-text h2 {
+    font-size: 15px;
+  }
+  #foot .footer-col .connect {
+    padding-left: 27%;
+  }
+  #site-footer .footer-credits {
+    text-align: center;
+  }
+  #shoe-col4 .shoe-text {
+    font-size: 17px;
+  }
+  #site-header .log-in {
+    left: 27rem;
+  }
+  #site-header .menu-midle .search input[type="text"] {
+    left: 1.5rem;
+    width: 50%;
+  }
+
+}
+
+/* style max width 479 */
+
+@media(max-width:479px){
+
+  #site-header .log-in {
+    left: 19rem;
+  }
+  #shoe-col4 .shoe-text {
+    font-size: 15px;
+  }
+  #social .text-bundgaard span {
+    font-size: 60px;
+  }
+  #social .icon-social {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  #social .icon-social .icon-facebook {
+    width: 20%;
+    line-height: 37px;
+    height: 33px;
+  }
+  #social .icon-social .icon-mail {
+   width: 20%;
+    line-height: 32px;
+    height: 33px;
+  }
+  #social .icon-social .icon-instargram {
+    width: 20%;
+    line-height: 33px;
+    height: 33px;
+  }
+  #foot .header-footer .head-text h1 {
+    font-size: 16px;
+  }
+  #foot .header-footer .head-text h2 {
+    font-size: 12px;
+  }
+  #foot .footer-col .text-head h3 {
+    font-size: 20px;
   }
 
 }
