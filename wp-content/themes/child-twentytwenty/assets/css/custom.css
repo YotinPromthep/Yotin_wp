@@ -165,7 +165,7 @@
   height: 20px;
   background-color: rgb(206 201 201);
   top: 10px;
-  left: 54.5rem;
+  left: 98.5rem;
 }
 #site-header .user .logo-user{
   padding-right: 15px;
@@ -181,7 +181,7 @@
   height: 20px;
   background-color: rgb(206 201 201);
   top: 10px;
-  left: 65rem;;
+  left: 109rem;;
 }
 #site-header .logo-login {
   padding-right: 15px;
@@ -216,7 +216,7 @@
   height: 20px;
   background-color: rgb(206 201 201);
   top: 10px;
-  left: 31rem; 
+  left: 75rem; 
 }
 
 #site-header .menu-midle a{
@@ -784,6 +784,15 @@ footer#site-footer {
     padding-left: 100px;
     padding-right: 100px;
   }
+  #site-header .search::before {
+    left: 10rem;
+  }
+  #site-header .user::before {
+    left: 34rem;
+  }
+  #site-header .log-in::before {
+    left: 44.5rem;
+  }
   #foot .text-head h3 {
     font-size: 3rem;
   }
@@ -814,6 +823,16 @@ footer#site-footer {
 /* Max width 1199 */
 
 @media(max-width:1199px){
+
+  #site-header .search::before {
+    left: 6rem;
+  }
+  #site-header .user::before {
+    left: 30rem;
+  }
+  #site-header .log-in::before {
+    left: 40.5rem;
+  }
 
   #site-header .text-menu h1 {
     font-size: 14px;
@@ -847,6 +866,7 @@ footer#site-footer {
     width: 4%;
     font-size: 21px;
   }
+
 
   #foot .footer-col .text-head h3{
     font-size: 25px;
@@ -1344,7 +1364,7 @@ footer#site-footer {
     text-align: center;
   }
   #shoe-col4 .shoe-text {
-    font-size: 17px;
+    font-size: 25px;
   }
   #site-header .log-in {
     left: 27rem;
@@ -1365,6 +1385,9 @@ footer#site-footer {
   #foot .footer-col .connect {
     padding-left: 10%;
   }
+  #social .text-bundgaard span {
+    font-size: 70px;
+  }
   
 
 }
@@ -1381,7 +1404,7 @@ footer#site-footer {
     left: 19rem;
   }
   #shoe-col4 .shoe-text {
-    font-size: 15px;
+    font-size: 25px;
   }
   #social .text-bundgaard span {
     font-size: 60px;
@@ -1518,6 +1541,10 @@ footer#site-footer {
 }
 
 @media(max-width:320px){
+
+  #shoe-col4 .shoe-text {
+    font-size: 20px;
+  }
 
   #foot .header-footer .head-text h1 {
     font-size: 16px;
