@@ -53,15 +53,3 @@ jQuery(".text-head .hidd2").click(function() {
 
     }    
 });
-
-jQuery(".user").click(function() {
-    if ( jQuery(".log-in").css("display") === "none" ) {
-
-        jQuery(".log-in").css("display", "flex");
-
-    } else if ( jQuery(".log-in").css("display") === "flex" ){
-
-        jQuery(".log-in").css("display", "none");
-
-    }    
-}); 

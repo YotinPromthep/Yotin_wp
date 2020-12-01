@@ -85,7 +85,7 @@
 
 					<div class="header-titles">
 
-						<a href="#"><img src="wp-content/themes/child-twentytwenty/assets/img/logo-web_03.png" alt="" srcset=""></a>
+						<a href="http://localhost/Yotin_wp/"><img src="wp-content/themes/child-twentytwenty/assets/img/logo-web_03.png" alt="" srcset=""></a>
 						
 					</div><!-- .header-titles -->
 
@@ -95,7 +95,7 @@
 					<div class="col-1">
 						<span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 					</div>
-					<div class="col-10 menu-midle">
+					<div class="col-10 col-12 menu-midle">
 						<div class="search">
 							<a href="#" id="main-search" ><i class="fa fa-search"></i></a>
 							<input id="show-search" type="text">
@@ -122,6 +122,14 @@
 							</div>
 							<div class="text-login">
 								<a href="#"><span>Log ind</span></a>
+							</div>
+						</div>
+						<div class="user-login-respon">
+							<div class="dropdown">
+								<button class="dropbtn"><a href="#"><i class="fa fa-user"></i></a><span class="dis"> Min konto </span><i class="fa fa-caret-down"></i></button>
+								<div class="dropdown-content">
+									<a  href="#" ><i class="fa fa-sign-in"></i><span class="dis"> Log ind</span></a>
+								</div>
 							</div>
 						</div>
 						<div class="cart">

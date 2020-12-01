@@ -22,7 +22,7 @@
 
 					<div class="footer-credits">
 
-						<span>Copyright &copy; 2020 bundgaard.dk - All rights reserved.</span>						
+						<span>Copyright &copy; 2020 <span class="co">bundgaard.dk</span>  - All rights reserved.</span>						
 
 					</div><!-- .footer-credits -->					
 
