@@ -717,12 +717,12 @@ footer#site-footer {
 
 /* <-----------------------------------------------------------------------------> */
 
-@media(min-width: 1441px) and (max-width: 1848px){
+@media(max-width: 1848px){
   #site-header .header-navigation-wrapper {
     width: 100%;
   }
   #site-header .menu-text a {
-    padding-right: 32.5px;
+    padding-right: 83.5px;
 }
 }
 
@@ -1005,6 +1005,7 @@ footer#site-footer {
     width: 100%;
   }
   
+  
   #social{
     max-width: 100%;
     margin: 0;
@@ -1110,6 +1111,9 @@ footer#site-footer {
   }
   #site-header .header-inner {
     padding: 0px;
+  }
+  #service .row {
+    padding: 0 30px;
   }
   #child-img .col-6 {
     padding: 0 4px;

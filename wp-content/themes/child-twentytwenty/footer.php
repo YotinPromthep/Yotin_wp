@@ -30,7 +30,6 @@
 
 			</footer><!-- #site-footer -->
 
-			
 
 		<?php wp_footer(); ?>
 
