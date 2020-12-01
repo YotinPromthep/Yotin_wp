@@ -53,3 +53,8 @@ jQuery(".text-head .hidd2").click(function() {
 
     }    
 });
+
+jQuery("a[href='#top']").click(function() {
+    jQuery("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});

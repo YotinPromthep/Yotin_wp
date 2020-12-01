@@ -284,7 +284,7 @@ get_header();
         </div>
         <div class="row">
             <div class="to-top">
-                <a href="#" class="fa fa-angle-double-up"></a>
+                <a href="#top" class="fa fa-angle-double-up"></a>
             </div>
         </div>
     </div>

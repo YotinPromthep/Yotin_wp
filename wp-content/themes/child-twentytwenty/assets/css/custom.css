@@ -18,14 +18,17 @@
 #mySidenav{
   display: none;
 }
-#site-header .top-menu{
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+#site-header .header-inner{
+  max-width: 100%;
+  width: 100%;
+  padding: 8px 60px;
 }
-#site-header .section-inner{
-  padding: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px ;
+#site-header .mid{
+  padding: 3px 60px;
+}
+#site-header .top-menu{
+  background: #f4f4f4;
 }
 #site-header .header-titles img{
   padding-left: 20px;
@@ -41,8 +44,12 @@
 #site-header .text-menu h1 span{
   color: #e1a546;
 }
+#site-header .text-menu-top .col-8{
+  padding: 0;
+}
 #site-header .logo-service{
   display: flex;
+  justify-content: flex-end;
 }
 #site-header .logo-service .text-top-service span{
   font-size: 14px;
@@ -56,19 +63,19 @@
 #site-header .logo-service .img-service img{
   display: flex;
   width: 50px;
-  padding-right: 10px;
 }
 #site-header .logo-service .top-service{
   display: flex;
+  padding-left: 40px;
 }
 #site-header .text-menu-top{
   width: 100%;
 }
 #site-header .col-4{
   padding: 0;
+  top: 10px ;
 }
 #site-header .top-service{
-  margin-right: 30px;
   align-items: center;
 }
 #site-header .top-service .middle{
@@ -76,12 +83,17 @@
 }
 
 #site-header .header-navigation-wrapper{
-  width: 50%;
+  width: 100%;
 }
 
 #site-header .menu-midle{
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
 }
 .dropbtn {
   background-color: rgba(255, 255, 255, 0);;
@@ -138,6 +150,10 @@
   display: none;
 }
 
+#site-header .logo-service .top-service .text-top-service{
+  padding-left: 16px;
+}
+
 #site-header .user{
   display: flex;
   padding-right: 20px;
@@ -148,8 +164,8 @@
   width: 1px;
   height: 20px;
   background-color: rgb(206 201 201);
-  top: 103px;
-  left: 146rem;
+  top: 10px;
+  left: 54.5rem;
 }
 #site-header .user .logo-user{
   padding-right: 15px;
@@ -164,15 +180,14 @@
   width: 1px;
   height: 20px;
   background-color: rgb(206 201 201);
-  top: 103px;
-  left: 156.5rem;;
+  top: 10px;
+  left: 65rem;;
 }
 #site-header .logo-login {
   padding-right: 15px;
 }
 #site-header .cart{
   display: flex;
-  padding-right: 20px;
 }
 #site-header .cart .logo-cart{
   padding-right: 15px;
@@ -181,7 +196,7 @@
   padding-right: 15px;
 }
 #site-header .search{
-  padding-right: 10px;  
+  padding-right: 20px;  
 }
 #site-header .menu-midle .search input[type="text"]{
   display: none;
@@ -200,8 +215,8 @@
   width: 1px;
   height: 20px;
   background-color: rgb(206 201 201);
-  top: 103px;
-  left: 123rem; 
+  top: 10px;
+  left: 31rem; 
 }
 
 #site-header .menu-midle a{
@@ -215,13 +230,15 @@
 
 #site-header .menu-text{
   width: 100%;
-  text-align: center;
 }
 #site-header .menu-text a{
   text-decoration: none;
   color: #000000;
   font-size: 20px;
-  padding-right: 69px;
+  padding-right: 86.5px;
+}
+#site-header .menu-text .aa{
+  padding-right: 0px;
 }
 #site-header .menu-text a:hover{
   color:#b4cbcd;
@@ -302,7 +319,7 @@
 }
 
 #child-img .col-6{
-  padding: 5px;
+  padding: 0 10px;
   
 }
 #child-img .child-img img{
@@ -324,9 +341,11 @@
 /* <-----------------------------------------------------------------------------> */
 
 .social-container{
-  padding-top: 100px;
+  padding-top: 110px;
   margin: 0;
-  padding-bottom: 20px;
+}
+.social-container .row{
+  margin-top: 53px;
 }
 #social .text-bundgaard{
   width: 100%;
@@ -348,20 +367,18 @@
   text-align: center;
   display: flex;
   font-size: 35px;
-  padding-left: 44%;
-  padding-right: 32%;
-  padding-top: 25px;
+  margin-top: 25px;
   justify-content: center;
 }
 #social .icon-social .icon-facebook{
   margin-right: 20px;
-  width: 11%;
+  width: 50px;
   border-radius: 74%;
   border: 1px solid rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
   height: 100%;
   font-size: 28px;
-  line-height: 44px;
+  line-height: 43px;
 }
 #social .icon-social .icon-facebook:hover{
   background-color: #c4d6d6;
@@ -372,7 +389,7 @@
 }
 #social .icon-social .icon-mail{
   margin-right: 20px;
-  width: 11%;
+  width: 50px;
   border-radius: 74%;
   border: 1px solid rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
@@ -390,7 +407,7 @@
 }
 #social .icon-social .icon-instargram{
   margin-right: 20px;
-  width: 11%;
+  width: 50px;
   border-radius: 74%;
   border: 1px solid rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
@@ -456,7 +473,9 @@
 /* <-----------------------------------------------------------------------------> */
 
 #service .row{
-  margin-bottom: 25px;
+  margin-bottom: 42px;
+  padding: 0 236px;
+  align-items: center;
 }
 #service .col-4{
   text-align: center;
@@ -485,7 +504,7 @@
 #foot{
   text-align: center;
   background-color: #c4d6d6; 
-  padding: 20px;
+  padding: 75px 20px;
   padding-bottom: 5px;
 }
 #foot .header-footer{
@@ -505,8 +524,7 @@
   margin: 0;
 }
 #foot .input-email{
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 0 23.5%;  
   display: flex;
   margin: 30px;
 }
@@ -525,13 +543,12 @@
   color: #ffffff;
 }
 #foot .input-email button{
-  width: 10%;
   background: rgb(255 255 255 / 0%);
   border: 1px solid #ffffff;
   border-left: none;
   right: 0px;
   top: 0px;
-  width: 80px;
+  width: 100px;
   height: 48px;
   margin: 0;
   padding: 0;
@@ -552,10 +569,11 @@
 #foot .footer-col{
   width: 100%;
   display: flex;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 270px;
+  padding-right: 270px;
   text-align: left;
-  margin-top: 60px;
+  margin-top: 112px;
+  margin-bottom: 62px;
 }
 #foot .footer-col .img-logo{
   padding-top: 50px;
@@ -604,6 +622,7 @@
 #foot .text-head h3{
   margin: 0;
   margin-bottom: 25px;
+  font-size: 20px;
 }
 #foot .text-head .face{
   margin: 0;
@@ -640,6 +659,9 @@
 #foot .to-top{
   width: 100%;
   text-align: end;
+  right: 88px;
+  top: 66rem;
+  z-index: 9999;
 }
 #foot .to-top a{
   width: 45px;
@@ -671,7 +693,7 @@
 /* <-----------------------------------------------------------------------------> */
 
 footer#site-footer {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 #site-footer .footer-credits{
@@ -683,8 +705,11 @@ footer#site-footer {
   font-size:14px;
   font-weight: bold;
 }
+#site-footer .section-inner span{
+  color: #a5a5a5;
+}
 #site-footer .section-inner span .co{
-  color: #e1a546;
+  color: #97afbc;
 }
 
 
@@ -692,37 +717,64 @@ footer#site-footer {
 
 /* <-----------------------------------------------------------------------------> */
 
-/* max width 1366 */
+@media(min-width: 1441px) and (max-width: 1848px){
+  #site-header .header-navigation-wrapper {
+    width: 100%;
+  }
+  #site-header .menu-text a {
+    padding-right: 32.5px;
+}
+}
 
 @media(max-width:1440px){
 
+  #site-header .header-navigation-wrapper {
+    width: 55%;
+  }
+
   #site-header .menu-text a {
-    padding-right: 34px;
+    padding-right: 30px;
   }
   #foot .text-head h3 {
     font-size: 2.5rem;
   } 
   #social .icon-social .icon-facebook {
-    width: 14%;
-    height: 99%;
-}
+    width: 50px;
+    height: 100%;
+  }
   #social .icon-social .icon-mail {
-    width: 14%;
-    height: 99%;
-}
+    width: 50px;
+    height: 100%;
+  }
   #social .icon-social .icon-instargram {
-    width: 14%;
-    height: 99%;
-}
+    width: 50px;
+    height: 100%;
+  }
+  #site-header .mid {
+    padding: 3px 22px;
+  }
+  #site-header .search::before {
+    left: 12rem;
+  }
+  #site-header .user::before {
+    left: 35.5rem;
+  }
+  #site-header .log-in::before {
+    left: 45.5rem;
+  }
+  #foot .to-top {
+    top: 379.5rem;
+  }
 
 
 }
 
+/* max width 1366 */
 
 @media(max-width:1366px){
 
   #site-header .header-navigation-wrapper {
-    width: 56%;
+    width: 57%;
   }
   #site-header .menu-text a {
     font-size: 18px;
@@ -737,6 +789,24 @@ footer#site-footer {
   }
   #site-header .menu-midle .search input[type="text"] {
     left: -21rem;
+  }
+  #site-header .text-menu h1 {
+    font-size: 15px;
+  }
+  #social .icon-social .icon-facebook {
+    width: 50px;
+    height: 100%;
+  }
+  #social .icon-social .icon-mail {
+    width: 50px;
+    height: 100%;
+  }
+  #social .icon-social .icon-instargram {
+    width: 50px;
+    height: 100%;
+  }
+  #service .row {
+    padding: 0 170px;
   }
 
 }
@@ -756,25 +826,25 @@ footer#site-footer {
   }
   #site-header .menu-text a {
     font-size: 18px;
-    padding-right: 18px;
+    padding-right: 14px;
   }
-
+  
 
   #child-img .child-text {
     font-size: 50px;
   }
 
   #social .icon-social .icon-facebook {
-    width: 15%;
+    width: 4%;
     font-size: 25px;
   }
 
   #social .icon-social .icon-mail{
-    width: 15%;
+    width: 4%;
     font-size: 25px;
   }
   #social .icon-social .icon-instargram{
-    width: 15%;
+    width: 4%;
     font-size: 21px;
   }
 
@@ -782,7 +852,7 @@ footer#site-footer {
     font-size: 25px;
   }
   #foot .footer-col .text-child a {
-    font-size: 11px;
+    font-size: 13px;
   }
 
 
@@ -792,10 +862,46 @@ footer#site-footer {
 
   #site-header .menu-text a {
     font-size: 15px;
-    padding-right: 16px;
+    padding-right: 12px;
   }
   #foot .footer-col .text-head h3 {
     font-size: 22px;
+  }
+  #social .icon-social .icon-facebook {
+    width: 50px;
+    font-size: 25px;
+  }
+  #social .icon-social .icon-mail {
+    width: 50px;
+    font-size: 25px;
+  }
+  #social .icon-social .icon-instargram {
+    width: 50px;
+    font-size: 25px;
+  }
+  #site-header .header-navigation-wrapper {
+    width: 89%;
+  }
+  #site-header .search::before {
+    left: 3rem;
+  }
+  #site-header .user::before {
+    left: 26.5rem;
+  }
+  #site-header .log-in::before {
+    left: 37rem;
+  }
+  #shoe-col4 .shoe-text {
+    font-size: 25px;
+  }
+  #service .row {
+    padding: 0 125px;
+  }
+  #foot .to-top {
+    top: 316.5rem;
+  }
+  #site-header .text-menu h1 {
+    font-size: 11px;
   }
 
 
@@ -885,15 +991,15 @@ footer#site-footer {
     width: 100%;
   }
   #social .icon-social .icon-facebook {
-    width: 20%;
+    width: 5%;
     line-height: 45px;
   }
   #social .icon-social .icon-mail{
-    width: 20%;
+    width: 5%;
     line-height: 45px;
   }
   #social .icon-social .icon-instargram{
-    width: 20%;
+    width: 5%;
     line-height: 45px;
   }
 
@@ -979,6 +1085,16 @@ footer#site-footer {
 
 @media(max-width:768px){
 
+  #site-header .menu-midle {
+    padding-right: 0px;
+  }
+  #site-header .header-inner {
+    padding: 0px;
+  }
+  #child-img .col-6 {
+    padding: 0 4px;
+  }
+
   #site-header .menu-midle .user{
     display: none;
   }
@@ -1044,28 +1160,30 @@ footer#site-footer {
     font-size: 40px;
   }
   #social .icon-social .icon-facebook {
-    width: 23%;
-    line-height: 43px;
-    height: 40px;
-    font-size: 22px;
+    width: 50px;
+    height: 100%;
+
   }
   #social .icon-social .icon-mail{
-    width: 23%;
-    line-height: 43px;
-    height: 40px;
-    font-size: 22px;
+    width: 50px;
+    height: 100%;
+  }
+  #foot .footer-col .img-logo img {
+    width: 40%;
+    margin-bottom: 20px;
   }
   #social .icon-social .icon-instargram{
-    width: 23%;
-    line-height: 43px;
-    height: 40px;
-    font-size: 22px;
+    width: 50px;
+    height: 100%;
   }
   #foot .footer-col .text-head h3 {
     font-size: 25px;
   }
   #foot .footer-col .text-child a {
     font-size: 15px;
+  }
+  #foot .to-top {
+    top: 371.5rem;
   }
   #foot .footer-col{
     display: block;
@@ -1084,17 +1202,17 @@ footer#site-footer {
     width: 50%;  
   }
   #foot .footer-col .text-head h3{
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .text-head , .text-child{
     padding-left: 0%;
     padding-right: 0%;
   }
   #foot .footer-col .connect {
-    padding-left: 40%;
+    padding-left: 32%;
   }
   .logo-so{
-    padding-left: 10%;
+    padding-left: 43%;
   }
   #foot .footer-col .img-logo {
     padding-top: 0;
@@ -1107,6 +1225,10 @@ footer#site-footer {
     display: flex;
     
   }
+  #foot .footer-col {
+    margin-top: 10px;
+  }
+
   #foot .footer-col .text-head .fa-caret-down{
     display: block;
     padding-left: 30px;
@@ -1117,6 +1239,7 @@ footer#site-footer {
     overflow-x: hidden;
     display: none;
     transition: 0.5s;
+    padding-left: 20%;
    }
    #foot .footer-col .hid2{
     height: 0%;
@@ -1124,6 +1247,7 @@ footer#site-footer {
     overflow-x: hidden;
     display: none;
     transition: 0.5s;
+    padding-left: 20%;
    }
 
 }
@@ -1145,10 +1269,6 @@ footer#site-footer {
     padding-bottom: 20px;
   }
 
-  #site-header .col-1{
-    position: absolute;
-    top: 30px;
-  }
   .text-head h3{
     justify-content: space-between;
   }
@@ -1159,6 +1279,7 @@ footer#site-footer {
   #social .col-3{
     flex: 0 0 50%;
     max-width: 100%;
+    padding: 2px 0;
   }
   .dropbtn {
     padding: 0 5px;
@@ -1170,33 +1291,38 @@ footer#site-footer {
     min-width: 40px;
   }
   #site-header .header-titles-wrapper {
-    justify-content: flex-end;
-    padding: 0 1rem;
+    justify-content: center;
+    padding: 0 1.5rem;
+  }
+  #foot .to-top {
+    top: 532.5rem;
+  }
+  #foot .footer-col .text-head h3{
+    justify-content: space-between;
   }
   #site-header .menu-midle {
     padding-right: 0px;
   }
+  #shoe-col4 .shoe .shoe-img {
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #child-img .child-img{
+    padding: 5px 0;
+  }
 
   #child-img .child-text {
-    font-size: 25px;
+    font-size: 40px;
   }
   #social .icon-social .icon-facebook {
-    width: 28%;
-    line-height: 33px;
-    height: 30px;
-    font-size: 20px;
+    width: 50px;
   }
   #social .icon-social .icon-mail {
-    width: 28%;
-    line-height: 30px;
-    height: 30px;
-    font-size: 15px;
+    width: 50px;
   }
   #social .icon-social .icon-instargram {
-    width: 28%;
-    line-height: 31px;
-    height: 30px;
-    font-size: 15px;
+    width: 50px;
   }
   #service .row{
     display: block;
@@ -1231,7 +1357,7 @@ footer#site-footer {
     padding-left: 10%;
   }
   #foot .footer-col .text-head h3 {
-    font-size: 35px;
+    font-size: 25px;
   }
   #foot .footer-col .text-child a {
     font-size: 20px;
@@ -1265,19 +1391,13 @@ footer#site-footer {
     padding-right: 30%;
   }
   #social .icon-social .icon-facebook {
-    width: 20%;
-    line-height: 37px;
-    height: 33px;
+    width: 50px;
   }
   #social .icon-social .icon-mail {
-   width: 20%;
-    line-height: 32px;
-    height: 33px;
+    width: 50px;
   }
   #social .icon-social .icon-instargram {
-    width: 20%;
-    line-height: 33px;
-    height: 33px;
+    width: 50px;
   }
   #foot .header-footer .head-text h1 {
     font-size: 16px;
@@ -1287,6 +1407,9 @@ footer#site-footer {
   }
   #foot .footer-col .text-head h3 {
     font-size: 20px;
+  }
+  #foot .to-top {
+    top: 476.5rem;
   }
 
 }
@@ -1314,22 +1437,16 @@ footer#site-footer {
     
   }
   #social .text-bundgaard span {
-    font-size: 40px;
+    font-size: 45px;
   }
   #social .icon-social .icon-facebook {
-    width: 17%;
-    line-height: 31px;
-    height: 29px;
+    width: 60px;
   }
   #social .icon-social .icon-mail {
-    width: 17%;
-    line-height: 27px;
-    height: 29px;
+    width: 60px;
   }
   #social .icon-social .icon-instargram {
-    width: 17%;
-    line-height: 29px;
-    height: 29px;
+    width: 60px;
   }
   #social .social-text {
     top: 50%;
@@ -1341,87 +1458,100 @@ footer#site-footer {
   #foot .footer-col .text-head h3 {
     font-size: 25px;
   }  
+  #foot .to-top {
+    top: 444.5rem;
+  }
 
 }
-/* @media(max-width:375px){
+@media(max-width:375px){
 
-  #site-header .header-titles img{
-    max-width: 215px;
-    padding-top: 20px;
+  #foot .footer-col .text-head h3 {
+    font-size: 20px;
   }
-  #shoe-col4 .shoe .shoe-img {
-    padding: 2px;
-    
+  #foot .to-top a {
+    width: 40px;
+    height: 40px;
+    line-height: 34px;
   }
-  #social .text-bundgaard span {
-    font-size: 40px;
+  #foot {
+    text-align: center;
+    background-color: #c4d6d6;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+  }
+  #foot .to-top {
+    top: 407.5rem;
+  }
+  #site-footer .footer-credits span {
+    font-size: 12px;
+  }
+  .sidenav a {
+    font-size: 10px;
+  }
+
+  .header-footer .head-text h1 {
+    font-size: 12px;
   }
   #social .icon-social .icon-facebook {
-    width: 20%;
-    line-height: 31px;
-    height: 29px;
+    width: 100px;
+    height: 85%;
+    font-size: 17px;
+    line-height: 35px;
   }
   #social .icon-social .icon-mail {
-    width: 20%;
-    line-height: 27px;
-    height: 29px;
+    width: 100px;
+    height: 85%;
+    font-size: 17px;
+    line-height: 35px;
   }
   #social .icon-social .icon-instargram {
-    width: 20%;
-    line-height: 29px;
-    height: 29px;
+    width: 100px;
+    height: 85%;
+    font-size: 17px;
+    line-height: 35px;
   }
-  #social .social-text {
-    top: 50%;
-    left: 30%;
+  #service .row {
+    padding: 0;
   }
-  #foot .footer-col .text-child a {
-    font-size: 15px;
-  }
-  #foot .footer-col .text-head h3 {
-    font-size: 25px;
-  }  
+ 
 
 }
 
 @media(max-width:320px){
 
-  #site-header .header-titles img{
-    max-width: 215px;
-    padding-top: 20px;
-  }
-  #shoe-col4 .shoe .shoe-img {
-    padding: 2px;
-    
-  }
-  #social .text-bundgaard span {
-    font-size: 40px;
+  #foot .header-footer .head-text h1 {
+    font-size: 16px;
   }
   #social .icon-social .icon-facebook {
     width: 20%;
     line-height: 31px;
     height: 29px;
+    font-size: 20px;
+  }
+  #foot .to-top {
+    top: 384.5rem;
+    right: 30px;
+  }
+  #foot .to-top a {
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
   }
   #social .icon-social .icon-mail {
     width: 20%;
-    line-height: 27px;
+    line-height: 31px;
     height: 29px;
+    font-size: 16px;
   }
   #social .icon-social .icon-instargram {
     width: 20%;
-    line-height: 29px;
+    line-height: 31px;
     height: 29px;
+    font-size: 16px;
   }
-  #social .social-text {
-    top: 50%;
-    left: 30%;
-  }
-  #foot .footer-col .text-child a {
-    font-size: 15px;
-  }
-  #foot .footer-col .text-head h3 {
-    font-size: 25px;
+  #site-footer .footer-credits span {
+    font-size: 10px;
   }
 
-} */
+}
 

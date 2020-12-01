@@ -91,11 +91,11 @@
 
 			</div><!-- .header-titles-wrapper -->
 
-				<div class="header-navigation-wrapper">
+				<div class="header-navigation-wrapper mid	">
 					<div class="col-1">
 						<span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 					</div>
-					<div class="col-10 col-12 menu-midle">
+					<div class="col-11 menu-midle">
 						<div class="search">
 							<a href="#" id="main-search" ><i class="fa fa-search"></i></a>
 							<input id="show-search" type="text">
@@ -161,7 +161,7 @@
 						<a href="#"><span>Find størrelse</span></a>
 						<a href="#"><span>Pleje af sko</span></a>
 						<a href="#"><span>Kundeservice</span></a>
-						<a href="#"><span>Om Bundgaard</span></a>
+						<a href="#" class="aa"><span>Om Bundgaard</span></a>
 					</div>
 				</div>
 			</div>	
