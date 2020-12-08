@@ -22,6 +22,35 @@ body{
   display: none;
 }
 
+#site-header .menu-bottom .menu-text ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  justify-content: space-between;
+
+}
+#site-header .menu-bottom .menu-text ul li{
+  margin: 0;
+}
+#site-header .menu-bottom .menu-text ul .last{
+  margin: 0;
+}
+#site-header .menu-bottom .menu-text ul li ul{
+  display: block;
+  margin-right: 15px;
+  cursor: pointer;  
+  display: none;
+}
+#site-header .menu-bottom .menu-text ul li ul li{
+  margin:0;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#site-header .menu-bottom .menu-text ul li a{
+  padding: 0;
+}
+
 #site-header .header-inner{
   max-width: 100%;
   width: 100%;
@@ -465,6 +494,36 @@ body{
 }
 #social a{
   color: white;
+}
+
+/* toggle */
+
+/* <-----------------------------------------------------------------------------> */
+
+#text-toggle {
+  background: #ffffff;
+  padding: 30px;
+}
+#text-toggle .text-all .child-text {
+  padding-left: 40px;
+  text-align: justify;
+}
+#text-toggle .text-all .head h1{
+  font-size: 50px;
+}
+#text-toggle .button-togle{
+  align-items: center;
+}
+#text-toggle .button-togle button{
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  padding: 0;
+}
+#text-toggle .button-togle button:hover{
+  background-color: #ff1856;
+ 
 }
 
 

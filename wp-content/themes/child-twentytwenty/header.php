@@ -149,22 +149,40 @@
 				</div><!-- .header-navigation-wrapper -->
 
 			</div><!-- .header-inner -->
-
+			<?php
+				$li = array("red","green","blue","yellow");					
+			?>
 			<div  class="header-inner section-inner ham" >
-				<div  class="menu-bottom ">
-					<div class="menu-text">
-						<a href="#"><span>Sko</span></a>
-						<a href="#"><span>Støvler</span></a>
-						<a href="#"><span>Gummistøvler</span></a>
-						<a href="#"><span>Hjemmesko</span></a>
-						<a href="#"><span>De første skridt</span></a>
-						<a href="#"><span>Find størrelse</span></a>
-						<a href="#"><span>Pleje af sko</span></a>
-						<a href="#"><span>Kundeservice</span></a>
-						<a href="#" class="aa"><span>Om Bundgaard</span></a>
+				<div class="menu-bottom ">
+					<div class="menu-text">						
+					<ul>
+						<li class="hov"><a href="#"> Sko</a>						
+							<ul class="show-nav">	
+							<?php foreach ($li as $value){ ?>
+
+								<li><?php echo "$value"; ?></li>
+								
+								<?php } ?>
+							</ul>
+						
+						</li>
+						<li><a href="#"> Støvler</a></li>
+						<li><a href="#"> Gummistøvler</a></li>
+						<li><a href="#"> Hjemmesko</a></li>
+						<li><a href="#"> De første skridt</a></li>
+						<li><a href="#"> Find størrelse</a></li>
+						<li><a href="#"> Pleje af sko</a></li>
+						<li><a href="#"> Kundeservice</a></li>
+						<li class="last"><a href="#"> Om Bundgaard</a></li>
+					</ul>
 					</div>
 				</div>
+				
 			</div>	
+			<div class="menu-bottom ">
+
+					
+				</div>
 	
 
 
