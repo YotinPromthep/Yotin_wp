@@ -91,7 +91,7 @@
 
 			</div><!-- .header-titles-wrapper -->
 
-				<div class="header-navigation-wrapper mid	">
+				<div class="header-navigation-wrapper mid">
 					<div class="col-1">
 						<span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 					</div>
