@@ -20,7 +20,7 @@ get_header();
             <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>
             <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>
             <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./wlp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>
             <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>            
         </div>
             
