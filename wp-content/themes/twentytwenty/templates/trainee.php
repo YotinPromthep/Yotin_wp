@@ -15,7 +15,7 @@ get_header();
 
 
 <main id="site-content" role="main">
-    <div class="swiper-container">
+    <!-- <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>
             <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>
@@ -23,9 +23,20 @@ get_header();
             <div class="swiper-slide"><img src="./wlp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>
             <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>            
         </div>
-            
-       
-  </div>
+    </div> -->
+    <div id='carousel-example-generic' class='carousel slide' data-ride='carousel'>
+        <div class='carousel-inner '>
+            <div class='item active '>
+                <img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt="">
+            </div>
+            <div class='item '>
+                <img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt="">
+            </div>
+            <div class='item '>
+                <img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt="">        
+            </div>
+        </div>
+    </div>
 
   <div id="shoe-col4"  class="shoe-container">
     <div class="shoe">
@@ -263,7 +274,7 @@ get_header();
                         <h3>Kontakt</h3>
                     </div>
                     <ul class="text-child connect">
-                        <li class="con"><i class="fa fa-map-marker"></i><div>
+                        <li class="con"><i class="fa fa-map-marker a"></i><div>
                             <a href="#">Bonvita Footwear Company<br>Sundkaj 125, 3 Sal.<br>DK-2150 Nordhavn</a></div></li>
                         <li class="con"><i class="fa fa-envelope"></i>
                             <div><a href="#">shop@bundgaard.dk</a></div>

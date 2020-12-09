@@ -57,12 +57,20 @@ body::-webkit-scrollbar-thumb {
   margin-right: 15px;
   cursor: pointer;  
   display: none;
+  width: 100%;
+  background: white;
+  position: absolute;
+  left: 0px;
+  padding-left: 56px;
+  box-shadow: 0px 50px 34px #78636399;
+  border-top: none;
 }
 #site-header .menu-bottom .menu-text ul li ul li{
   margin:0;
   margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 15px;
+  
 }
 #site-header .menu-bottom .menu-text ul li a{
   padding: 0;
@@ -73,9 +81,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   padding: 8px 60px;
 }
-#site-header .mid{
-  padding: 3px 60px;
-}
+
 #site-header .top-menu{
   background: #f4f4f4;
 }
@@ -214,7 +220,7 @@ body::-webkit-scrollbar-thumb {
   height: 20px;
   background-color: rgb(206 201 201);
   top: 10px;
-  left: 100rem;
+  left: 111rem;
 }
 #site-header .user .logo-user{
   padding-right: 15px;
@@ -230,7 +236,7 @@ body::-webkit-scrollbar-thumb {
   height: 20px;
   background-color: rgb(206 201 201);
   top: 10px;
-  left: 110.5rem;
+  left: 121.5rem;
 }
 #site-header .logo-login {
   padding-right: 15px;
@@ -255,6 +261,7 @@ body::-webkit-scrollbar-thumb {
   transition: .5s;
   box-shadow: 2px 2px 5px;
   z-index: 9999;
+  outline: 0;
 }
 #site-header .search::before{
   content: "";
@@ -263,7 +270,7 @@ body::-webkit-scrollbar-thumb {
   height: 20px;
   background-color: rgb(206 201 201);
   top: 10px;
-  left: 76.5rem; 
+  left: 87.5rem; 
 }
 
 #site-header .menu-midle a{
@@ -331,6 +338,13 @@ body::-webkit-scrollbar-thumb {
 .swiper-wrapper .swiper-slide-active{
   width: 9977px;
 }
+
+/* <-----------------------------------------------------------------------------> */
+
+
+
+
+
 /* Shoe  */
 
 /* <-----------------------------------------------------------------------------> */
@@ -426,9 +440,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 74%;
   border: 1px solid rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
-  height: 100%;
+  height: 50px;
   font-size: 28px;
-  line-height: 43px;
+  line-height: 51px;
 }
 #social .icon-social .icon-facebook:hover{
   background-color: #c4d6d6;
@@ -443,9 +457,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 74%;
   border: 1px solid rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
-  height: 100%;
+  height: 50px;
   font-size: 25px;
-  line-height: 43px;
+  line-height: 51px;
 }
 #social .icon-social .icon-mail:hover{
   background-color: #c4d6d6;
@@ -460,9 +474,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 74%;
   border: 1px solid rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
-  height: 100%;
+  height: 50px;
   font-size: 25px;
-  line-height: 44px;
+  line-height: 51px;
 }
 #social .icon-social .icon-instargram:hover{
   background-color: #c4d6d6;
@@ -525,7 +539,7 @@ body::-webkit-scrollbar-thumb {
 }
 #text-toggle .text-all .more {
   padding-left: 40px;
-  text-align: justify;
+  text-align: left;
 }
 #text-toggle .text-all .head h1{
   font-size: 50px;
@@ -648,6 +662,7 @@ body::-webkit-scrollbar-thumb {
   border-right: none;
   height: 48px;
   padding-left: 50px;
+  outline: 0;
 
 }
 ::placeholder{
@@ -663,6 +678,7 @@ body::-webkit-scrollbar-thumb {
   height: 48px;
   margin: 0;
   padding: 0;
+  outline: 0;
 }
 #foot .input-email .fa-envelope{
   position: absolute;
@@ -726,6 +742,11 @@ body::-webkit-scrollbar-thumb {
 
 #foot .footer-col .connect .con i::before{
   margin-right: 30px; 
+  font-size: 20px;
+  color: #ffffff;
+}
+#foot .footer-col .connect .con .a::before{
+  margin-right: 40px; 
   font-size: 20px;
   color: #ffffff;
 }
@@ -819,9 +840,13 @@ footer#site-footer {
 #site-footer .section-inner span{
   color: #a5a5a5;
 }
-#site-footer .section-inner span .co{
+#site-footer a{
   color: #97afbc;
 }
+#site-footer a:hover {
+  text-decoration: none;
+}
+
 
 
 /* Style Responsive */
