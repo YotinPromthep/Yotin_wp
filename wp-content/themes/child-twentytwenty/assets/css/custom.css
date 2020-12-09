@@ -504,7 +504,7 @@ body{
   background: #ffffff;
   padding: 30px;
 }
-#text-toggle .text-all .child-text {
+#text-toggle .text-all .more {
   padding-left: 40px;
   text-align: justify;
 }
@@ -513,6 +513,8 @@ body{
 }
 #text-toggle .button-togle{
   align-items: center;
+  margin-top: 30px;
+  text-align: center;
 }
 #text-toggle .button-togle button{
   text-decoration: none;
@@ -523,9 +525,36 @@ body{
 }
 #text-toggle .button-togle button:hover{
   background-color: #ff1856;
- 
+}
+/* #text-toggle .text-long{
+  display: none;
+}
+#text-toggle .text-short{
+  display: block;
+} */
+
+.morecontent span {
+  display: none;
+}
+.morelink {
+  display: block;
 }
 
+.text-long .more .morecontent a{
+  text-decoration: none;
+  border: 1px solid;
+  width: 115px;
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #cd2653;
+  color: white;
+  margin-left: 864px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 
 /* Service */
