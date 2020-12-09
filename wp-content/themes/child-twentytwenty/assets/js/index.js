@@ -7,7 +7,7 @@
 jQuery("#main-search").click(function() {
 
     if ( jQuery("#show-search").css("display") === "none" ) {
-
+        
         jQuery("#show-search").css("display", "block");
 
     } else if ( jQuery("#show-search").css("display") === "block" ){
