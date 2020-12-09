@@ -89,29 +89,9 @@ jQuery(".show-nav li").hover(function() {
 
 
 
-// jQuery(".toggle-botton").click(function() {  
-    
-    
 
-//     jQuery(".text-long").toggle(800);
-//     $(this).text($(this).text() == 'Less More' ? 'more....' : 'Less More');
 
-//     if ( jQuery(".text-long").css("display") === "none" ) {
-        
-//         console.log("block");
-//         jQuery(".text-short").css("display", "block");
-
-//     } else if ( jQuery(".text-long").css("display") === "block" ){
-
-//         console.log("none");
-//         jQuery(".text-short").css("display", "none");
-
-//     }   
-    
-   
-// });
-
-var showChar = 599;
+var showChar = 590;
 var ellipsestext = "...";
 var moretext = "Show more";
 var lesstext = "Show less";
@@ -147,9 +127,34 @@ jQuery(".morelink").click(function(){
 
     }
     
-    $(this).parent().prev().toggle();
-    $(this).prev().toggle(500);
+    $(this).parent().prev().slideToggle();
+    $(this).prev().slideToggle(500);
     
     return false;
 });
 
+// jQuery(function() {
+
+//     var width = 720;
+//     var speed = 800;
+//     var pause = 800;
+//     var current = 1;
+
+//     //cache DOM
+//     var $slider = $('.swiper-wrapper');
+//     var $slides = $slider.find('.swiper-wrapper');
+//     var $slide = $slides.find('.swiper-slide');
+
+
+// setInterval(function() {
+//         //move image the defined width and speed to the left
+//     $slides.animate({'margin-left': '-='+width}, speed, function() {
+//         //count number of slides and loop back to first from last
+//         current++;
+//         if (current === $slides.length) {
+//             current = 1;
+//             $slides.css('margin-left', 0);
+//         }
+//     });			
+// }, pause);
+// });

@@ -3,14 +3,31 @@
 
 *{
   font-family: 'Poppins', sans-serif;  
+
 }
 body{
   background: #ffffff;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;              
+}
 
+body::-webkit-scrollbar-track {
+  background: rgb(255, 253, 253);        
+}
 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(195, 195, 202);  
+  border-radius: 20px;      
+  border: 3px solid rgb(255, 255, 255);  
+}
 
+#site-content hr{
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
 
 /* menu */
 
@@ -550,10 +567,12 @@ body{
   text-transform: uppercase;
   background: #cd2653;
   color: white;
-  margin-left: 864px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
+}
+.text-long .more .morecontent a:hover{
+  background: #9b012a;
 }
 
 
