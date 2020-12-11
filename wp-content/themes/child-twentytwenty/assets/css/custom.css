@@ -859,9 +859,37 @@ footer#site-footer {
   }
   #site-header .menu-text a {
     padding-right: 83.5px;
+  }
+  #site-header .search::before {
+    left: 82.5rem;
+  }
+  #site-header .user::before {
+    left: 106rem;
+  }
+  #site-header .log-in::before {
+    left: 116.5rem;
+  }
 }
+@media(max-width: 1805px){
+
+  #site-header .logo-service .top-service .text-top-service {
+    display: grid;
+  }
+
 }
 
+@media(max-width: 1610px){
+  #site-header .search::before {
+    left: 61rem;
+  }
+  #site-header .user::before {
+    left: 85rem;
+  }
+  #site-header .log-in::before {
+    left: 95rem;
+  }
+
+}
 @media(max-width:1440px){
 
   #site-header .header-navigation-wrapper {
@@ -869,6 +897,9 @@ footer#site-footer {
   }
   #site-header .logo-service .text-top-service span.h{
     display: table;
+  }
+  #site-header .text-menu h1 {
+    font-size: 15px;
   }
 
   #site-header .menu-text a {
@@ -895,17 +926,14 @@ footer#site-footer {
     width: 50px;
     height: 50px;
   }
-  #site-header .mid {
-    padding: 3px 22px;
-  }
   #site-header .search::before {
-    left: 13rem;
+    left: 17rem;
   }
   #site-header .user::before {
-    left: 36.5rem;
+    left: 40.5rem;
   }
   #site-header .log-in::before {
-    left: 47rem;
+    left: 51rem;
   }
   #foot .to-top {
     top: 379.5rem;
@@ -926,13 +954,13 @@ footer#site-footer {
     padding-right: 30px;
   }
   #site-header .search::before {
-    left: 11.5rem;
+    left: 15.5rem;
   }
   #site-header .user::before {
-    left: 35.5rem;
+    left: 39rem;
   }
   #site-header .log-in::before {
-    left: 45.5rem;
+    left: 49.5rem;
   }
   #foot .text-head h3 {
     font-size: 3rem;
@@ -941,7 +969,7 @@ footer#site-footer {
     left: -21rem;
   }
   #site-header .text-menu h1 {
-    font-size: 15px;
+    font-size: 13px;
   }
   #social .icon-social .icon-facebook {
     width: 50px;
@@ -958,25 +986,33 @@ footer#site-footer {
 
 }
 
+@media(max-width:1285px){
+
+  #site-header .logo-service .text-top-service span {
+    font-size: 12px;
+  }
+ 
+
+}
 /* Max width 1199 */
 
 @media(max-width:1199px){
 
   #site-header .search::before {
-    left: 7.5rem;
+    left: 11.5rem;
   }
   #site-header .logo-service .top-service .text-top-service {
     display: none;
   }
   #site-header .user::before {
-    left: 31.5rem;
+    left: 35.5rem;
   }
   #site-header .log-in::before {
-    left: 42rem;
+    left: 46rem;
   }
 
   #site-header .text-menu h1 {
-    font-size: 13px;
+    font-size: 11px;
   }
   #site-header .logo-service .text-top-service span {
     font-size: 8px;
@@ -985,8 +1021,7 @@ footer#site-footer {
     width: 62%;
   }
   #site-header .menu-text a {
-    font-size: 18px;
-    padding-right: 14px;
+    font-size: 15px;
   }
   
 
@@ -1016,14 +1051,20 @@ footer#site-footer {
 
 }
 
+@media(max-width:1040px){
+  #site-header .user {
+    padding-right: 10px;
+  }
+}
+
 @media(max-width:1024px){
   #social .social-text {
     left: 33%;
   }
+  
 
   #site-header .menu-text a {
-    font-size: 15px;
-    padding-right: 12px;
+    font-size: 13px;
   }
   #foot .footer-col .text-head h3 {
     font-size: 22px;
@@ -1044,13 +1085,13 @@ footer#site-footer {
     width: 89%;
   }
   #site-header .search::before {
-    left: 4.5rem;
+    left: 8rem;
   }
   #site-header .user::before {
-    left: 28rem;
+    left: 42rem;
   }
   #site-header .log-in::before {
-    left: 38.5rem;
+    left: 32rem;
   }
   #shoe-col4 .shoe-text {
     font-size: 25px;
@@ -1252,7 +1293,9 @@ footer#site-footer {
 /* styke max width 768 */
 
 @media(max-width:768px){
-
+  #site-header .header-navigation-wrapper{
+    padding: 0 10px;
+  }
   #social .social-text {
     left: 25%;
   }
@@ -1773,10 +1816,10 @@ footer#site-footer {
     font-size: 16px;
   }
   #social .icon-social .icon-facebook {
-    width: 30px;
-    line-height: 31px;
-    height: 30px;
-    font-size: 15px;
+    width: 35px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 20px;
   }
   .text-long .more .morecontent a {
     width: 100px;
@@ -1801,17 +1844,16 @@ footer#site-footer {
     line-height: 30px;
   }
   #social .icon-social .icon-mail {
-    width: 30px;
-    line-height: 31px;
-    height: 30px;
-    font-size: 15px;
+    width: 35px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 20px;
   }
   #social .icon-social .icon-instargram {
-    width: 30px;
-    line-height: 31px;
-    height: 30px;
-    font-size: 15px;
-    margin: 0;
+    width: 35px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 20px;
   }
   #site-footer .footer-credits span {
     font-size: 10px;
