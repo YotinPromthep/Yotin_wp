@@ -271,9 +271,9 @@ get_header();
                 </div>
                 <div class="col-3">
                     <div class="text-head">
-                        <h3>Kontakt</h3>
+                        <h3>Kontakt <i class="fa fa-caret-down hidd3"></i></h3>
                     </div>
-                    <ul class="text-child connect">
+                    <ul class="text-child connect hid3">
                         <li class="con"><i class="fa fa-map-marker a"></i><div>
                             <a href="#">Bonvita Footwear Company<br>Sundkaj 125, 3 Sal.<br>DK-2150 Nordhavn</a></div></li>
                         <li class="con"><i class="fa fa-envelope"></i>

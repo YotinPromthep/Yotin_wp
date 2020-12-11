@@ -65,30 +65,20 @@ function closeNav() {
 
 jQuery(".text-head .hidd1").click(function() {
 
-    if ( jQuery(".hid1").css("display") === "none" ) {
-
-        jQuery(".hid1").css("display", "block");
-
-    } else if ( jQuery(".hid1").css("display") === "block" ){
-
-        jQuery(".hid1").css("display", "none");
-
-    }   
+    jQuery( ".hid1" ).slideToggle(500); 
 
 });
 
 jQuery(".text-head .hidd2").click(function() {
 
-    if ( jQuery(".hid2").css("display") === "none" ) {
+    jQuery( ".hid2" ).slideToggle(500);
 
-        jQuery(".hid2").css("display", "block");
+});
 
-    } else if ( jQuery(".hid2").css("display") === "block" ){
-
-        jQuery(".hid2").css("display", "none");
-
-    }  
-
+jQuery(".text-head .hidd3").click(function() {
+    
+    jQuery( ".hid3" ).slideToggle(500);
+    
 });
 
 // To the top
