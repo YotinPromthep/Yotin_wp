@@ -39,7 +39,7 @@ jQuery(document).ready(function() {
 
     jQuery('.menu__icon').click(function(){
 
-        jQuery('body').toggleClass('menu_shown');
+        jQuery('body').toggleClass('menu_shown',800);
 
     });
 
@@ -48,15 +48,20 @@ jQuery(document).ready(function() {
 function openNav() {
 
     document.getElementById("mySidenav").style.width = "250px";
+    jQuery("#mySidenav a").css("font-size", "20px");
+    jQuery("#mySidenav .closebtn").css("font-size", "36px");
 
 }
   
 function closeNav() {
 
     document.getElementById("mySidenav").style.width = "0";
-    document.body.style.backgroundColor = "white";
+    jQuery("#mySidenav a").css("font-size", "0");
 
 }
+
+
+
 
 // footer Responsive
 
@@ -78,8 +83,11 @@ jQuery(".text-head .hidd2").click(function() {
 jQuery(".text-head .hidd3").click(function() {
     
     jQuery( ".hid3" ).slideToggle(500);
-    
+
 });
+
+
+
 
 // To the top
 
@@ -97,6 +105,7 @@ jQuery("a[href='#top']").click(function() {
 // <<---------------------------------------------------------------------->>
 
 jQuery(".hov").hover(function(){
+
     if ( jQuery(".show-nav").css("display") === "none" ) {
 
         jQuery(".show-nav").css("display", "block");
@@ -104,7 +113,9 @@ jQuery(".hov").hover(function(){
      else if ( jQuery(".show-nav").css("display") === "block" ){
          
         jQuery(".show-nav").css("display", "none");
+
     } 
+
 });
 
 
@@ -112,6 +123,7 @@ jQuery(".hov").hover(function(){
 $('.show-nav > li').each(function(i,v){
 
     $(this).attr('data-parent',i);
+    
 })
 
 var color = {0:'#F00', 1:'#0F0',2:'#00F',3:'#FF0'}

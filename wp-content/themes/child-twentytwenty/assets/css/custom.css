@@ -3,10 +3,10 @@
 
 *{
   font-family: 'Poppins', sans-serif;  
-
 }
 body{
   background: #ffffff;
+  transition: background-color .5s;
 }
 
 body::-webkit-scrollbar {
@@ -1072,6 +1072,8 @@ footer#site-footer {
 
 @media(max-width:991px) {
 
+
+
   .hamburger{
     display: block;
   }
@@ -1126,7 +1128,7 @@ footer#site-footer {
     display: block  ;
   }
   #site-header .logo-service {
-    align-items: baseline;
+    align-items: center;
   }
   #site-header .menu-text a {
     font-size: 14px;

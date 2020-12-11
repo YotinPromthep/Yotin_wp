@@ -178,13 +178,7 @@
 					</div>
 				</div>
 				
-			</div>	
-			<div class="menu-bottom ">
-
-					
-				</div>
-	
-
+			</div>
 
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -198,6 +192,7 @@
 				<a href="#"><span>Kundeservice</span></a>
 				<a href="#"><span>Om Bundgaard</span></a>
 			</div>
+			
 			
 		
 			
