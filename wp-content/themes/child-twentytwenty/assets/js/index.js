@@ -123,7 +123,7 @@ jQuery("#over-lay").click(function() {
 
 jQuery(".text-head .hidd1").click(function() {
 
-    jQuery( ".hid1" ).toggle("show");
+    jQuery( ".hid1" ).slideToggle(500);
     jQuery(".hidd1").toggleClass('flip');
 
 });
