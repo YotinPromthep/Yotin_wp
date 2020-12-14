@@ -13,6 +13,7 @@ jQuery("#main-search").click(function() {
         jQuery(".over-layer").css("z-index", "9999");
         jQuery(".over-layer").css("visibility", "visible");
         jQuery(".cloce-search i").css("display", "block");
+        jQuery(".but-search").css("display", "block");
 
     } 
 
@@ -27,6 +28,8 @@ jQuery(".cloce-search i").click(function() {
         jQuery(".over-layer").css("z-index", "-1");
         jQuery(".over-layer").css("visibility", "hidden");
         jQuery(".cloce-search i").css("display", "none");
+        jQuery(".but-search").css("display", "none");
+
     }   
 
 }); 
@@ -40,6 +43,8 @@ jQuery(".over-layer").click(function() {
         jQuery(".over-layer").css("z-index", "-1");
         jQuery(".over-layer").css("visibility", "hidden");
         jQuery(".cloce-search i").css("display", "none");
+        jQuery(".but-search").css("display", "none");
+
     }   
 
 }); 
@@ -77,6 +82,11 @@ function openNav() {
     jQuery("#mySidenav a").css("font-size", "20px");
     jQuery("#mySidenav .closebtn").css("font-size", "36px");
 
+    jQuery("#over-lay").css("opacity", "1");
+    jQuery("#over-lay").css("z-index", "9999");
+    jQuery("#over-lay").css("visibility", "visible");
+
+
 }
   
 function closeNav() {
@@ -84,7 +94,24 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     jQuery("#mySidenav a").css("font-size", "0");
 
+    jQuery("#over-lay").css("opacity", "0");
+    jQuery("#over-lay").css("z-index", "-1");
+    jQuery("#over-lay").css("visibility", "hidden");
+
 }
+
+jQuery("#over-lay").click(function() {
+
+
+        document.getElementById("mySidenav").style.width = "0";
+        jQuery("#mySidenav a").css("font-size", "0");
+    
+        jQuery("#over-lay").css("opacity", "0");
+        jQuery("#over-lay").css("z-index", "-1");
+        jQuery("#over-lay").css("visibility", "hidden");
+
+
+}); 
 
 
 

@@ -101,11 +101,12 @@
 							<div class="cloce-search"><i class="fa fa-times"></i></div>
 							<a href="#" id="main-search" ><i class="fa fa-search"></i></a>
 							<input id="show-search" type="text">
+							<button class="but-search"><i class="fa fa-search"></i></button>
 						</div>
 						<div class="dropdown">
-							<button id="drop-show" class="dropbtn">Danish <i class="fa fa-caret-down"></i></button>
+							<button id="drop-show" class="dropbtn">Danish </i><i class="fa fa-caret-down"></i></button>
 							<div id="drop" class="dropdown-content">
-								<a id="Danish" href="#" >Danish</a>
+								<a id="Danish" href="#" >Danish </a>
 								<a id="German" href="#" >German</a>
 								<a id="English" href="#" >English</a>
 							</div>
@@ -181,7 +182,7 @@
 				</div>
 				
 			</div>
-
+			<div id="over-lay"></div>							
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<a href="#"><span>Sko</span></a>
