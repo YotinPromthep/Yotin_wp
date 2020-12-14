@@ -1500,7 +1500,13 @@ footer#site-footer {
 
   #foot .footer-col .text-head .fa-caret-down{
     display: block;
-    padding-left: 30px;
+    -moz-transition: transform 1s;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+
+  }
+  .flip {
+    transform: rotate(180deg);
   }
    #foot .footer-col .hid1{
     height: 0%;

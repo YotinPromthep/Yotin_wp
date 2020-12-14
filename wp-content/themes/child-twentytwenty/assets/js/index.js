@@ -96,19 +96,22 @@ function closeNav() {
 
 jQuery(".text-head .hidd1").click(function() {
 
-    jQuery( ".hid1" ).toggle(500); 
+    jQuery( ".hid1" ).slideToggle(500);
+    jQuery(".hidd1").toggleClass('flip');
 
 });
 
 jQuery(".text-head .hidd2").click(function() {
 
-    jQuery( ".hid2" ).toggle(500);
+    jQuery( ".hid2" ).slideToggle(500);
+    jQuery(".hidd2").toggleClass('flip');
 
 });
 
 jQuery(".text-head .hidd3").click(function() {
     
-    jQuery( ".hid3" ).toggle(500);
+    jQuery( ".hid3" ).slideToggle(500);
+    jQuery(".hidd3").toggleClass('flip');
 
 });
 
