@@ -244,7 +244,7 @@ get_header();
                     <div class="text-head">
                         <h3>Kategorier  <i class="fa fa-caret-down hidd1"></i></h3>
                     </div>
-                    <ul class="text-child hid1">
+                    <ul class="text-child  hid1">
                         <li><a href="#">Støvler</a></li>
                         <li><a href="#">Sko</a></li>
                         <li><a href="#">Gummistøvler</a></li>
@@ -260,7 +260,7 @@ get_header();
                     <div class="text-head">
                         <h3>Kundeservice  <i class="fa fa-caret-down hidd2"></i></h3>
                     </div>
-                    <ul class="text-child hid2">
+                    <ul class="text-child  hid2">
                         <li><a href="#">Min konto</a></li>
                         <li><a href="#">Opret konto</a></li>
                         <li><a href="#">Levering</a></li>

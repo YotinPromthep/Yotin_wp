@@ -9,11 +9,37 @@ jQuery("#main-search").click(function() {
     if ( jQuery("#show-search").css("display") === "none" ) {
         
         jQuery("#show-search").css("display", "block");
+        jQuery(".over-layer").css("opacity", "1");
+        jQuery(".over-layer").css("z-index", "9999");
+        jQuery(".over-layer").css("visibility", "visible");
+        jQuery(".cloce-search i").css("display", "block");
 
-    } else if ( jQuery("#show-search").css("display") === "block" ){
+    } 
+
+}); 
+
+jQuery(".cloce-search i").click(function() {
+
+    if ( jQuery("#show-search").css("display") === "block" ){
 
         jQuery("#show-search").css("display", "none");
+        jQuery(".over-layer").css("opacity", "0");
+        jQuery(".over-layer").css("z-index", "-1");
+        jQuery(".over-layer").css("visibility", "hidden");
+        jQuery(".cloce-search i").css("display", "none");
+    }   
 
+}); 
+
+jQuery(".over-layer").click(function() {
+
+    if ( jQuery("#show-search").css("display") === "block" ){
+
+        jQuery("#show-search").css("display", "none");
+        jQuery(".over-layer").css("opacity", "0");
+        jQuery(".over-layer").css("z-index", "-1");
+        jQuery(".over-layer").css("visibility", "hidden");
+        jQuery(".cloce-search i").css("display", "none");
     }   
 
 }); 
@@ -70,19 +96,19 @@ function closeNav() {
 
 jQuery(".text-head .hidd1").click(function() {
 
-    jQuery( ".hid1" ).slideToggle(500); 
+    jQuery( ".hid1" ).toggle(500); 
 
 });
 
 jQuery(".text-head .hidd2").click(function() {
 
-    jQuery( ".hid2" ).slideToggle(500);
+    jQuery( ".hid2" ).toggle(500);
 
 });
 
 jQuery(".text-head .hidd3").click(function() {
     
-    jQuery( ".hid3" ).slideToggle(500);
+    jQuery( ".hid3" ).toggle(500);
 
 });
 
@@ -94,9 +120,26 @@ jQuery(".text-head .hidd3").click(function() {
 // <<---------------------------------------------------------------------->>
 // <<---------------------------------------------------------------------->>
 
-jQuery("a[href='#top']").click(function() {
-    jQuery("html, body").animate({ scrollTop: 0 }, "slow");
-  return false;
+
+jQuery(window).scroll(function(){
+
+    if ($(this).scrollTop() > 500){
+
+        $('.to-top').fadeIn();
+
+    } 
+    else{
+
+        $('.to-top').fadeOut();
+
+    }
+});
+
+jQuery('.to-top').click(function(){
+
+    $("html, body").animate({scrollTop : 0},700);
+    return false;
+
 });
 
 // hover nav
@@ -178,7 +221,7 @@ jQuery(".morelink").click(function(){
 
     }
     
-    $(this).parent().prev().slideToggle();
+    $(this).parent().prev().slideToggle(500);
     $(this).prev().slideToggle(500);
     
     return false;
@@ -228,8 +271,31 @@ jQuery(".morelink").click(function(){
 //                 $('.swiper-wrapper .swiper-slide').css('left', '');
 //             });
 //         };       
-// });    
+// });   
 
+
+
+// top menu fixed
+
+// <<---------------------------------------------------------------------->>
+// <<---------------------------------------------------------------------->>
+
+
+jQuery(window).scroll(function(){
+
+    if ($(this).scrollTop() > 200){
+
+        jQuery(".ham").css("position", "fixed");
+        jQuery(".ham").css("background", "white");
+        jQuery(".ham").css("top", "0");
+
+    } 
+    else{
+
+        jQuery(".ham").css("position", "relative");
+
+    }
+});
 
 
     

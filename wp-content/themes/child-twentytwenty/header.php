@@ -97,6 +97,8 @@
 					</div>
 					<div class="col-11 menu-midle">
 						<div class="search">
+							<div class="over-layer"></div>
+							<div class="cloce-search"><i class="fa fa-times"></i></div>
 							<a href="#" id="main-search" ><i class="fa fa-search"></i></a>
 							<input id="show-search" type="text">
 						</div>
