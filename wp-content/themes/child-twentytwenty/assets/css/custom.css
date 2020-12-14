@@ -254,7 +254,7 @@ body::-webkit-scrollbar-thumb {
 #site-header .menu-midle .search input[type="text"]{
   display: none;
   position: absolute;
-  left: -23rem;
+  left: 32.5rem;
   width: 40%;
   height: 40px;
   margin-top: 6px;
@@ -843,9 +843,7 @@ footer#site-footer {
 #site-footer a{
   color: #97afbc;
 }
-#site-footer a:hover {
-  text-decoration: none;
-}
+
 
 
 
@@ -1797,9 +1795,6 @@ footer#site-footer {
   #shoe-col4 .shoe-text {
     font-size: 35px;
   }
-
-
- 
 
 }
 
