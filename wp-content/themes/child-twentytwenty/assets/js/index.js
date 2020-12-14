@@ -288,7 +288,6 @@ jQuery(window).scroll(function(){
         jQuery(".ham").css("position", "fixed");
         jQuery(".ham").css("background", "white");
         jQuery(".ham").css("top", "0");
-
     } 
     else{
 

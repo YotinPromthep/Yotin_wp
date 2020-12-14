@@ -280,7 +280,7 @@ get_header();
                             <div><a href="#">shop@bundgaard.dk</a></div>
                         </li>
                         <li class="con"><i class="fa fa-phone"></i>
-                            <div><a href="">+45 38 40 07 00</a></div>
+                            <div><a href="">+45 38400700</a></div>
                         </li>
                         <li class="con"><i class="fa fa-clock"></i>
                             <div><a href="#">Mandag - Fredag : 09:00 - 15:00</a></div>
