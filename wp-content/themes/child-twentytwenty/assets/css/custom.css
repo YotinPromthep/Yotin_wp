@@ -1545,7 +1545,6 @@ footer#site-footer {
   }
 
   #foot .footer-col .text-head .fa-caret-down{
-    display: block;
     -moz-transition: transform 1s;
     -webkit-transition: transform 1s;
     transition: transform 1s;
@@ -1559,14 +1558,12 @@ footer#site-footer {
     width: 100%;
     overflow-x: hidden;
     display: none;
-    transition: 0.5s;
    }
    #foot .footer-col .hid2{
     height: 0%;
     width: 100%;
     overflow-x: hidden;
     display: none;
-    transition: 0.5s;
    }
    #foot .to-top a {
     left: 92.5%;
