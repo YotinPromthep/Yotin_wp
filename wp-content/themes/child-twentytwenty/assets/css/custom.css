@@ -1390,7 +1390,7 @@ footer#site-footer {
   }
   .sidenav {
     height: 100%;
-    width: 0;
+    width: 0px;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -1399,6 +1399,8 @@ footer#site-footer {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    float: left;
+    
   }
   
   .sidenav .closebtn {
@@ -1410,8 +1412,7 @@ footer#site-footer {
     font-size: 20px;
     color: #000000;
     display: block;
-    transition: 0.3s;
-    border-bottom: 1px solid rgb(0 0 0 / 22%);
+    width: 280px;
 
   }
   
@@ -1424,7 +1425,7 @@ footer#site-footer {
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    padding-left: 85%;
   }
 
 }

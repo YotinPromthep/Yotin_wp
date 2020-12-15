@@ -78,9 +78,7 @@ jQuery(document).ready(function() {
 
 function openNav() {
 
-    document.getElementById("mySidenav").style.width = "250px";
-    jQuery("#mySidenav a").css("font-size", "20px");
-    jQuery("#mySidenav .closebtn").css("font-size", "36px");
+    document.getElementById("mySidenav").style.width = "280px";
 
     jQuery("#over-lay").css("opacity", "1");
     jQuery("#over-lay").css("z-index", "9999");
@@ -92,7 +90,6 @@ function openNav() {
 function closeNav() {
 
     document.getElementById("mySidenav").style.width = "0";
-    jQuery("#mySidenav a").css("font-size", "0");
 
     jQuery("#over-lay").css("opacity", "0");
     jQuery("#over-lay").css("z-index", "-1");
@@ -104,15 +101,13 @@ jQuery("#over-lay").click(function() {
 
 
         document.getElementById("mySidenav").style.width = "0";
-        jQuery("#mySidenav a").css("font-size", "0");
-    
+
         jQuery("#over-lay").css("opacity", "0");
         jQuery("#over-lay").css("z-index", "-1");
         jQuery("#over-lay").css("visibility", "hidden");
 
 
 }); 
-
 
 
 
