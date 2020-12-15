@@ -79,6 +79,9 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="sticky">
+
 			<div class="header-inner section-inner hamm ">
 
 				<div class="header-titles-wrapper">					
@@ -181,6 +184,8 @@
 					</div>
 				</div>
 				
+			</div>
+
 			</div>
 
 			<div id="over-lay"></div>							
