@@ -78,7 +78,7 @@ jQuery(document).ready(function() {
 
 function openNav() {
 
-    document.getElementById("mySidenav").style.width = "280px";
+    document.getElementById("mySidenav").style.width = "250px";
 
     jQuery("#over-lay").css("opacity", "1");
     jQuery("#over-lay").css("z-index", "9999");
