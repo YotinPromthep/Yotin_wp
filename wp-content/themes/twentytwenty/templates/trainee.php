@@ -24,18 +24,31 @@ get_header();
             <div class="swiper-slide"><img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt=""></div>            
         </div>
     </div> -->
-    <div id='carousel-example-generic' class='carousel slide' data-ride='carousel'>
+    <div id='carouselExampleIndicators' class='carousel slide' data-ride='carousel'>
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
         <div class='carousel-inner '>
-            <div class='item active '>
+            <div class='item active'>
                 <img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt="">
             </div>
-            <div class='item '>
+            <div class='item'>
                 <img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt="">
             </div>
-            <div class='item '>
+            <div class='item'>
                 <img src="./wp-content/themes/child-twentytwenty/assets/img/slide_02.jpg" alt="">        
             </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
   <div id="shoe-col4"  class="shoe-container">
@@ -135,10 +148,10 @@ get_header();
                     <div class="overlay"></div>
                     <div class="social-text">
                         <div class="heart-social">
-                           <a href=""> <i class="fa fa-heart"> 20</i></a>
+                           <a href=""> <i class="fa fa-heart"> <span>20</span> </i></a>
                         </div>
                         <div class="comment-social">
-                            <a href=""><i class="fa fa-comment"> 15</i></a>
+                            <a href=""><i class="fa fa-comment"> <span>15</span> </i></a>
                         </div>
                     </div>
                 </div>
@@ -149,10 +162,10 @@ get_header();
                     <div class="overlay"></div>
                     <div class="social-text">
                         <div class="heart-social">
-                           <a href=""> <i class="fa fa-heart"> 20</i></a>
+                           <a href=""> <i class="fa fa-heart"> <span>20</span> </i></a>
                         </div>
                         <div class="comment-social">
-                            <a href=""><i class="fa fa-comment"> 15</i></a>
+                            <a href=""><i class="fa fa-comment"> <span>15</span> </i></a>
                         </div>
                     </div>
                 </div>
@@ -163,10 +176,10 @@ get_header();
                     <div class="overlay"></div>
                     <div class="social-text">
                         <div class="heart-social">
-                           <a href=""> <i class="fa fa-heart"> 20</i></a>
+                           <a href=""> <i class="fa fa-heart"><span>20</span> </i></a>
                         </div>
                         <div class="comment-social">
-                            <a href=""><i class="fa fa-comment"> 15</i></a>
+                            <a href=""><i class="fa fa-comment"><span>15</span> </i></a>
                         </div>
                     </div>
                 </div>

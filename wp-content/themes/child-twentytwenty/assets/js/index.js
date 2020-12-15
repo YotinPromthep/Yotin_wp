@@ -313,15 +313,44 @@ jQuery(".morelink").click(function(){
 
 jQuery(window).scroll(function(){
 
-    if ($(this).scrollTop() > 200){
+    var width = $(window).width();
+
+    if ($(this).scrollTop() > 130){
+
+        jQuery(".hamm").css("position", "fixed");
+        jQuery(".hamm").css("background", "#fff");
+        jQuery(".hamm").css("top", "0");
+        jQuery(".hamm").css("z-index", "1");
+        
+   
 
         jQuery(".ham").css("position", "fixed");
-        jQuery(".ham").css("background", "white");
-        jQuery(".ham").css("top", "0");
+        jQuery(".ham").css("background", "#fff");
+        jQuery(".ham").css("top", "86px");
+
+        if (width <= 1880){
+
+            jQuery(".ham").css("top", "80px");
+
+        } 
+        if (width <= 1440){
+
+            jQuery(".ham").css("top", "90px");
+        }
+        if (width <= 1024){
+
+            jQuery(".ham").css("top", "80px");
+        }
+
     } 
     else{
 
         jQuery(".ham").css("position", "relative");
+        jQuery(".hamm").css("position", "relative");
+        jQuery(".ham").css("z-index", "0");
+        jQuery(".ham").css("top", "");
+
+        
 
     }
 });

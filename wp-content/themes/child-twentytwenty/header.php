@@ -79,7 +79,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="header-inner section-inner ">
+			<div class="header-inner section-inner hamm ">
 
 				<div class="header-titles-wrapper">					
 
@@ -182,6 +182,7 @@
 				</div>
 				
 			</div>
+
 			<div id="over-lay"></div>							
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>

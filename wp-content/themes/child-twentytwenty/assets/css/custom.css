@@ -4,9 +4,8 @@
 *{
   font-family: 'Poppins', sans-serif;  
 }
-body{
+body {
   background: #ffffff;
-  transition: background-color .5s;
 }
 
 body::-webkit-scrollbar {
@@ -39,6 +38,57 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
+#carouselExampleIndicators .carousel-control-next-icon, #carouselExampleIndicators .carousel-control-prev-icon {
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+#carouselExampleIndicators .carousel-control-next:hover .carousel-control-next-icon,
+#carouselExampleIndicators .carousel-control-prev:hover .carousel-control-prev-icon {
+  display: inline-block;
+  
+}
+#carouselExampleIndicators .carousel-control-next, #carouselExampleIndicators .carousel-control-prev {
+  width: 5%;
+  z-index: 0;
+}
+
+#carouselExampleIndicators .carousel-control-next:hover {
+  background: linear-gradient(90deg, transparent, #1b181875);
+}
+#carouselExampleIndicators .carousel-control-prev:hover{
+  background: linear-gradient(90deg, #1b181875, transparent);
+}
+#carouselExampleIndicators .carousel-indicators li{
+  margin-right: 20px;
+  width: 10px;
+  border-radius: 74%;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  height: 10px;
+  font-size: 28px;
+  line-height: 51px;
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+#carouselExampleIndicators .carousel-indicators .active{
+  border: 1px solid rgb(219, 219, 219);
+  background-color: rgb(219, 219, 219);
+
+}
+
+#carouselExampleIndicators .carousel-indicators{
+  margin-left: 20%;
+  margin-bottom: 1%;
+  z-index: 10;
+}
 #over-lay{
   position: fixed;
   top: 0;
@@ -50,7 +100,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #000000c4;
   zoom: 1;
   opacity: 0;
-  transition: all .9s ease;
+  transition: all .5s ease;
 }
 
 #site-header .menu-bottom .menu-text ul {
@@ -89,6 +139,7 @@ body::-webkit-scrollbar-thumb {
 #site-header .menu-bottom .menu-text ul li a{
   padding: 0;
 }
+
 
 #site-header .header-inner{
   max-width: 100%;
@@ -553,10 +604,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #social .col-3{
-  padding: 0;
+  padding: 0 5px;
 }
 #social .gallery img{
-  width: 98%;
+  width: 100%;
 }
 
 #social .social-text{
@@ -582,7 +633,7 @@ body::-webkit-scrollbar-thumb {
 #social .overlay {
   position: absolute;
   top: 0;
-  width: 98%;
+  width: 100%;
   height: 100%;
 }
 #social .col-3:hover .overlay{
@@ -877,7 +928,7 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   position: fixed;
   top: 90%;
-  left: 97.5%;
+  left: 97%;
 }
 
 #foot .to-top a:hover{
@@ -1526,9 +1577,6 @@ footer#site-footer {
   #foot .footer-col .connect {
     padding-left: 10%;
   }
-  .logo-so{
-    padding-left: 10%;
-  }
   #foot .footer-col .img-logo {
     padding-top: 0;
   }
@@ -1554,6 +1602,7 @@ footer#site-footer {
   .flip {
     transform: rotate(180deg);
   }
+
    #foot .footer-col .hid1{
     height: 0%;
     width: 100%;
@@ -1576,7 +1625,21 @@ footer#site-footer {
 
 
 @media(max-width:575px){
-
+  #carouselExampleIndicators{
+    padding-bottom: 5px;
+  }
+  #carouselExampleIndicators .carousel-indicators {
+    margin-bottom: 2%;
+  }
+  .social-container{
+    padding-top: 15px;
+  }
+  .social-container .row {
+    margin-top: 0;
+  }
+  #text-toggle {
+    padding: 1px 30px;
+  }
   #shoe-col4 .col-3 {
     flex: 0 0 50%;
     max-width: 100%;
@@ -1602,7 +1665,7 @@ footer#site-footer {
   #social .col-3{
     flex: 0 0 50%;
     max-width: 100%;
-    padding: 2px 0;
+    padding: 5px 5px;
   }
   .dropbtn {
     padding: 0 5px;
@@ -1627,9 +1690,7 @@ footer#site-footer {
     padding-right: 0px;
   }
   #shoe-col4 .shoe .shoe-img {
-    padding: 5px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 5px 5px;
   }
   #child-img .child-img{
     padding: 5px 0;
@@ -1676,9 +1737,6 @@ footer#site-footer {
     left: 93%;
   }
 
-  .logo-so {
-    padding-left: 10%;
-  }
   #foot .footer-col .text-head h3 {
     font-size: 25px;
   }
@@ -1705,14 +1763,14 @@ footer#site-footer {
   #foot .footer-col .text-child a {
     font-size: 15px;
   }
+  #carouselExampleIndicators .carousel-indicators{
+    display: none;
+  }
 
   #site-header .menu-midle .search .but-search {
     left: 80.5%;
   }
 
-  #shoe-col4 .shoe div {
-    padding-top: 2px;
-  }
   .dropbtn {
     font-size: 12px;
   }
@@ -1800,10 +1858,6 @@ footer#site-footer {
   #site-header .header-titles img{
     max-width: 215px;
     padding-top: 20px;
-  }
-  #shoe-col4 .shoe .shoe-img {
-    padding: 2px;
-    
   }
   #social .text-bundgaard span {
     font-size: 45px;
