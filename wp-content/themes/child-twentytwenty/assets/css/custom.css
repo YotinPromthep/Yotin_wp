@@ -585,6 +585,9 @@ body::-webkit-scrollbar-thumb {
   color: rgb(255, 255, 255); 
 
 }
+#social .gallery {
+  margin: 3em 0 3em 0em;
+}
 #social .icon-social .icon-instargram{
   width: 50px;
   border-radius: 74%;
@@ -633,7 +636,7 @@ body::-webkit-scrollbar-thumb {
 #social .overlay {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 98%;
   height: 100%;
 }
 #social .col-3:hover .overlay{
@@ -654,7 +657,6 @@ body::-webkit-scrollbar-thumb {
   padding: 30px;
 }
 #text-toggle .text-all .more {
-  padding-left: 40px;
   text-align: left;
 }
 #text-toggle .text-all .head h1{
@@ -909,7 +911,7 @@ body::-webkit-scrollbar-thumb {
   text-align: end;
   right: 88px;
   top: 66rem;
-  z-index: 9999;
+  z-index: 1;
 }
 
 #foot .to-top a{
@@ -1243,10 +1245,27 @@ footer#site-footer {
 
 @media(max-width:991px) {
 
-
-
+  .social-container{
+    padding-top: 0;
+  }
+  #social .gallery {
+    margin: 2em 0 2em 0em;
+  }
   .hamburger{
     display: block;
+  }
+  #social .row{
+    margin-top: 0;
+  }
+  #text-toggle {
+    padding: 0 30px;
+  }
+  #text-toggle .text-all .head h1 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .text-long .more .morecontent a {
+    margin-bottom: 0px;
   }
   
 
@@ -1418,6 +1437,9 @@ footer#site-footer {
   }
   #site-header .menu-midle .search .but-search {
     left: 85.5%;
+  }
+  .gallery {
+    margin: 2em 0 2em 0;
   }
   #social .social-text {
     left: 25%;
@@ -1600,7 +1622,7 @@ footer#site-footer {
 
   }
   .flip {
-    transform: rotate(180deg);
+    transform: rotate(-90deg);
   }
 
    #foot .footer-col .hid1{
@@ -1765,6 +1787,10 @@ footer#site-footer {
   }
   #carouselExampleIndicators .carousel-indicators{
     display: none;
+  }
+  #carouselExampleIndicators .carousel-control-next-icon, 
+  #carouselExampleIndicators .carousel-control-prev-icon {
+    display: inline-block;
   }
 
   #site-header .menu-midle .search .but-search {
@@ -1986,7 +2012,6 @@ footer#site-footer {
     height: 32px;
     padding: 7px;
     font-size: 11px;
-    margin-left: 45px;
   }
   #text-toggle .text-all .head h1 {
     font-size: 30px;
