@@ -134,10 +134,10 @@ get_header();
                     <div class="overlay"></div>
                     <div class="social-text">
                         <div class="heart-social">
-                           <a href=""> <i class="fa fa-heart"> 20</i></a>
+                           <a href=""> <i class="fa fa-heart"> <span>20</span> </i></a>
                         </div>
                         <div class="comment-social">
-                            <a href=""><i class="fa fa-comment"> 15</i></a>
+                            <a href=""><i class="fa fa-comment"> <span>15</span> </i></a>
                         </div>
                     </div>
                 </div>
@@ -176,10 +176,10 @@ get_header();
                     <div class="overlay"></div>
                     <div class="social-text">
                         <div class="heart-social">
-                           <a href=""> <i class="fa fa-heart"><span>20</span> </i></a>
+                           <a href=""> <i class="fa fa-heart"> <span>20</span> </i></a>
                         </div>
                         <div class="comment-social">
-                            <a href=""><i class="fa fa-comment"><span>15</span> </i></a>
+                            <a href=""><i class="fa fa-comment"> <span>15</span> </i></a>
                         </div>
                     </div>
                 </div>
